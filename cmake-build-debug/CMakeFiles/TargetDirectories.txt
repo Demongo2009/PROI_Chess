@@ -1,0 +1,3 @@
+/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles/Projekt3.dir
+/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles/edit_cache.dir

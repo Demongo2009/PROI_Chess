@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Projekt3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/demongo/Clion/projects/Projekt3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/demongo/Clion/projects/Projekt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/demongo/Clion/projects/Projekt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/demongo/Clion/projects/Projekt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/demongo/Clion/projects/Projekt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/demongo/Clion/projects/Projekt3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/demongo/Clion/projects/Projekt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/demongo/Clion/projects/Projekt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/demongo/Clion/projects/Projekt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/demongo/Clion/projects/Projekt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Projekt3">
+				<Option output="/home/demongo/Clion/projects/Projekt3/cmake-build-debug/Projekt3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/demongo/Clion/projects/Projekt3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/demongo/Clion/projects/Projekt3/test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/demongo/Clion/projects/Projekt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 Projekt3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/demongo/Clion/projects/Projekt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/demongo/Clion/projects/Projekt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/demongo/Clion/projects/Projekt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Projekt3/fast">
+				<Option output="/home/demongo/Clion/projects/Projekt3/cmake-build-debug/Projekt3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/demongo/Clion/projects/Projekt3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/demongo/Clion/projects/Projekt3/test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/demongo/Clion/projects/Projekt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 Projekt3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/demongo/Clion/projects/Projekt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/demongo/Clion/projects/Projekt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/demongo/Clion/projects/Projekt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/demongo/Clion/projects/Projekt3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/demongo/Clion/projects/Projekt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/demongo/Clion/projects/Projekt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/demongo/Clion/projects/Projekt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/demongo/Clion/projects/Projekt3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/demongo/Clion/projects/Projekt3/include/Board.h">
+			<Option target="Projekt3"/>
+		</Unit>
+		<Unit filename="/home/demongo/Clion/projects/Projekt3/include/ChessPiece.h">
+			<Option target="Projekt3"/>
+		</Unit>
+		<Unit filename="/home/demongo/Clion/projects/Projekt3/include/Enums.h">
+			<Option target="Projekt3"/>
+		</Unit>
+		<Unit filename="/home/demongo/Clion/projects/Projekt3/include/GameManager.h">
+			<Option target="Projekt3"/>
+		</Unit>
+		<Unit filename="/home/demongo/Clion/projects/Projekt3/include/PathPattern.h">
+			<Option target="Projekt3"/>
+		</Unit>
+		<Unit filename="/home/demongo/Clion/projects/Projekt3/include/Pawn.h">
+			<Option target="Projekt3"/>
+		</Unit>
+		<Unit filename="/home/demongo/Clion/projects/Projekt3/include/Player.h">
+			<Option target="Projekt3"/>
+		</Unit>
+		<Unit filename="/home/demongo/Clion/projects/Projekt3/include/Position.h">
+			<Option target="Projekt3"/>
+		</Unit>
+		<Unit filename="/home/demongo/Clion/projects/Projekt3/src/ChessPiece.cpp">
+			<Option target="Projekt3"/>
+		</Unit>
+		<Unit filename="/home/demongo/Clion/projects/Projekt3/src/GameManager.cpp">
+			<Option target="Projekt3"/>
+		</Unit>
+		<Unit filename="/home/demongo/Clion/projects/Projekt3/src/Main.cpp">
+			<Option target="Projekt3"/>
+		</Unit>
+		<Unit filename="/home/demongo/Clion/projects/Projekt3/src/Pawn.cpp">
+			<Option target="Projekt3"/>
+		</Unit>
+		<Unit filename="/home/demongo/Clion/projects/Projekt3/test/Tests.cpp">
+			<Option target="Projekt3"/>
+		</Unit>
+		<Unit filename="/home/demongo/Clion/projects/Projekt3/test/catch.hpp">
+			<Option target="Projekt3"/>
+		</Unit>
+		<Unit filename="/home/demongo/Clion/projects/Projekt3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
