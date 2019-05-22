@@ -13,4 +13,6 @@ int main(){
 	playerArray[1]= &playerTwo;
 	GameManager gameManager = GameManager(&board, playerArray);
 	gameManager.makeMove(Position(2,1),Position(3,1),WHITE);
+	gameManager.checkIfIsInCheck(BLACK);
+	gameManager.checkIfIsInCheckMate(BLACK);
 }

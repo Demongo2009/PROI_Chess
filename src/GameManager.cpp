@@ -15,6 +15,13 @@ GameManager::GameManager(Board *board, Player *players[2]) {
 
 bool GameManager::makeMove(Position chessPieceToMovePosition, Position positionToMoveTo, Color playerMovingColor) {
 
+	if(checkIfOutOfBounds(chessPieceToMovePosition)){
+		return false;
+	}
+	if(checkIfOutOfBounds(positionToMoveTo)){
+		return false;
+	}
+
 	if(!checkIfChessPieceBelongsToPlayer(chessPieceToMovePosition, playerMovingColor)){
 		return false;
 	}
@@ -22,6 +29,7 @@ bool GameManager::makeMove(Position chessPieceToMovePosition, Position positionT
 	if(!checkIfChessPieceCanBeMovedTo(chessPieceToMovePosition,positionToMoveTo)){
 		return false;
 	}
+
 	Color opponent = getOpponent(playerMovingColor);
 	if(checkIfChessPieceIsOnBoardInPosition(positionToMoveTo)){
 		if(!checkIfChessPieceBelongsToPlayer(positionToMoveTo,opponent)) {
@@ -41,7 +49,7 @@ bool GameManager::checkIfChessPieceCanBeMovedTo(Position position, Position toPo
 	if( !(suspectedChessPiece = board->getChessPiece(position)) ){
 		return false;
 	}
-	return suspectedChessPiece->checkIfCanGoToPosition(toPosition);
+	return suspectedChessPiece->checkIfCanGoToPosition(position, toPosition, board);
 }
 
 bool GameManager::checkIfChessPieceBelongsToPlayer(Position position, Color playerColor) {
@@ -73,4 +81,14 @@ void GameManager::moveChessPiece(Position position, Position toPosition) {
 	ChessPiece* chessPieceToMove = board->getChessPiece(position);
 	board->removeChessPiece(position);
 	board->setChessPiece(chessPieceToMove, toPosition);
+}
+
+bool GameManager::checkIfOutOfBounds(Position position) {
+	int positionX = position.getX();
+	int positionY = position.getY();
+	return positionX<0 || positionX>BOARD_SIZE-1 || positionY<0 || positionY>BOARD_SIZE-1;
+}
+
+void GameManager::checkIfIsInCheck(Color playerLoosingColor) {
+
 }

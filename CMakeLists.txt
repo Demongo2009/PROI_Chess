@@ -8,4 +8,4 @@ include_directories(test)
 add_executable(Projekt3
         src/Main.cpp
         test/catch.hpp
-        test/Tests.cpp include/ChessPiece.h include/Position.h include/Board.h include/PathPattern.h include/Enums.h include/GameManager.h include/Player.h src/GameManager.cpp src/ChessPiece.cpp include/Pawn.h src/Pawn.cpp)
+        test/Tests.cpp include/ChessPiece.h include/Position.h include/Board.h include/PathPattern.h include/Enums.h include/GameManager.h include/Player.h src/GameManager.cpp src/ChessPiece.cpp include/Pawn.h src/Pawn.cpp include/Rook.h include/Knight.h include/Bishop.h include/Queen.h include/King.h)

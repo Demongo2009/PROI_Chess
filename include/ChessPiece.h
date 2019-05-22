@@ -7,11 +7,12 @@
 
 #include "Position.h"
 #include "PathPattern.h"
+#include "Board.h"
 
 class ChessPiece{
 	Color color;
 public:
-	virtual bool checkIfCanGoToPosition(Position position);
+	virtual bool checkIfCanGoToPosition(Position formPosition, Position toPosition, Board* board);
 	Color getColor();
 
 };

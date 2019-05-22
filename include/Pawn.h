@@ -6,11 +6,14 @@
 #define PROJEKT3_PAWN_H
 
 #include "ChessPiece.h"
+#include "Board.h"
 
-class Pawn: ChessPiece{
-
+class Pawn: public ChessPiece{
+	Color color;
+	bool hasMoved = false;
 public:
-	bool checkIfCanGoToPosition(Position position);
+	bool checkIfCanGoToPosition(Position fromPosition, Position toPosition, Board* board);
+	bool checkIfColliding(Position fromPosition, Position toPosition, Direction direction, Board* board);
 };
 
 #endif //PROJEKT3_PAWN_H
