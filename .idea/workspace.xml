@@ -12,43 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84c5554f-8eae-4573-92e6-0a2e93c0d48d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/include/UtilityFunctions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BIshop.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Board.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/King.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Knight.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Player.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Position.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Queen.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rook.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Projekt3.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Projekt3.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Projekt3.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Projekt3.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Projekt3.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Projekt3.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Projekt3.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Projekt3.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Projekt3.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Projekt3.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Projekt3.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Projekt3.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Projekt3.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Projekt3.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Bishop.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Bishop.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Board.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Board.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/ChessPiece.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/ChessPiece.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/GameManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/GameManager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/King.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/King.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Knight.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Knight.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Pawn.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Pawn.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Player.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Player.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Position.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Position.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Queen.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Queen.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Rook.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Rook.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChessPiece.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChessPiece.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameManager.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pawn.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pawn.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/Tests.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,11 +29,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5751202">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/GameManager.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="201">
-                  <caret line="59" selection-start-line="59" selection-end-line="59" />
+                <state relative-caret-position="309">
+                  <caret line="82" selection-start-line="82" selection-end-line="82" />
                   <folding>
                     <element signature="e#42#72#0" expanded="true" />
                   </folding>
@@ -164,11 +128,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/King.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="239">
-                  <caret line="25" selection-start-line="25" selection-end-line="25" />
+                <state relative-caret-position="640">
+                  <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -280,6 +244,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -300,7 +265,6 @@
         <option value="$PROJECT_DIR$/src/ChessPiece.cpp" />
         <option value="$PROJECT_DIR$/include/ChessPiece.h" />
         <option value="$PROJECT_DIR$/src/Knight.cpp" />
-        <option value="$PROJECT_DIR$/src/King.cpp" />
         <option value="$PROJECT_DIR$/src/Queen.cpp" />
         <option value="$PROJECT_DIR$/src/Rook.cpp" />
         <option value="$PROJECT_DIR$/src/BIshop.cpp" />
@@ -314,6 +278,7 @@
         <option value="$PROJECT_DIR$/src/Pawn.cpp" />
         <option value="$PROJECT_DIR$/src/GameManager.cpp" />
         <option value="$PROJECT_DIR$/src/Main.cpp" />
+        <option value="$PROJECT_DIR$/src/King.cpp" />
       </list>
     </option>
   </component>
@@ -403,7 +368,7 @@
       <workItem from="1558544768913" duration="9339000" />
       <workItem from="1558594527909" duration="9918000" />
       <workItem from="1558620419916" duration="2938000" />
-      <workItem from="1558623378977" duration="4255000" />
+      <workItem from="1558623378977" duration="5143000" />
     </task>
     <task id="LOCAL-00001" summary="Chess pieces added">
       <created>1558546307582</created>
@@ -412,11 +377,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558546307582</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Chess pieces logic">
+      <created>1558629111461</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558629111461</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60402000" />
+    <option name="totallyTimeSpent" value="61290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -427,8 +399,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31318682" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.26263738" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4054945" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26263738" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -471,18 +443,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Chess pieces added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chess pieces added" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/Main.cpp</url>
-          <line>24</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Chess pieces logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chess pieces logic" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/include/Enums.h">
@@ -696,6 +658,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/include/Position.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -706,27 +675,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/Position.h">
+    <entry file="file://$PROJECT_DIR$/src/GameManager.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="309">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="e#42#72#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/King.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameManager.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="e#42#72#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="640">
+          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/demongo/Clion/projects/Projekt3/include/Board.h
+string
+-
+ChessPiece.h
+/home/demongo/Clion/projects/Projekt3/include/ChessPiece.h
+
+/home/demongo/Clion/projects/Projekt3/include/ChessPiece.h
+Position.h
+/home/demongo/Clion/projects/Projekt3/include/Position.h
+PathPattern.h
+/home/demongo/Clion/projects/Projekt3/include/PathPattern.h
+Board.h
+/home/demongo/Clion/projects/Projekt3/include/Board.h
+
+/home/demongo/Clion/projects/Projekt3/include/Enums.h
+
+/home/demongo/Clion/projects/Projekt3/include/King.h
+ChessPiece.h
+/home/demongo/Clion/projects/Projekt3/include/ChessPiece.h
+
+/home/demongo/Clion/projects/Projekt3/include/PathPattern.h
+Position.h
+/home/demongo/Clion/projects/Projekt3/include/Position.h
+Enums.h
+/home/demongo/Clion/projects/Projekt3/include/Enums.h
+
+/home/demongo/Clion/projects/Projekt3/include/Position.h
+
+/home/demongo/Clion/projects/Projekt3/src/King.cpp
+../include/King.h
+/home/demongo/Clion/projects/Projekt3/include/King.h
+
