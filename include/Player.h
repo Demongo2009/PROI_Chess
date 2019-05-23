@@ -14,7 +14,7 @@ class Player{
 public:
 	Player(std::string name, Color color);
 	std::string getName();
-	Color getColor;
+	Color getColor();
 };
 
 #endif //PROJEKT3_PLAYER_H

@@ -12,8 +12,8 @@ public:
 	Position(int x, int y):x(x),y(y){};
 	int getX();
 	int getY();
-	void setX();
-	void setY();
+	void setX(int x);
+	void setY(int y);
 };
 
 #endif //PROJEKT3_POSITION_H

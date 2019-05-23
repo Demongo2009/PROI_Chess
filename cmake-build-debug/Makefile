@@ -123,6 +123,60 @@ Projekt3/fast:
 	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/build
 .PHONY : Projekt3/fast
 
+src/BIshop.o: src/BIshop.cpp.o
+
+.PHONY : src/BIshop.o
+
+# target to build an object file
+src/BIshop.cpp.o:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/BIshop.cpp.o
+.PHONY : src/BIshop.cpp.o
+
+src/BIshop.i: src/BIshop.cpp.i
+
+.PHONY : src/BIshop.i
+
+# target to preprocess a source file
+src/BIshop.cpp.i:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/BIshop.cpp.i
+.PHONY : src/BIshop.cpp.i
+
+src/BIshop.s: src/BIshop.cpp.s
+
+.PHONY : src/BIshop.s
+
+# target to generate assembly for a file
+src/BIshop.cpp.s:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/BIshop.cpp.s
+.PHONY : src/BIshop.cpp.s
+
+src/Board.o: src/Board.cpp.o
+
+.PHONY : src/Board.o
+
+# target to build an object file
+src/Board.cpp.o:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/Board.cpp.o
+.PHONY : src/Board.cpp.o
+
+src/Board.i: src/Board.cpp.i
+
+.PHONY : src/Board.i
+
+# target to preprocess a source file
+src/Board.cpp.i:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/Board.cpp.i
+.PHONY : src/Board.cpp.i
+
+src/Board.s: src/Board.cpp.s
+
+.PHONY : src/Board.s
+
+# target to generate assembly for a file
+src/Board.cpp.s:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/Board.cpp.s
+.PHONY : src/Board.cpp.s
+
 src/ChessPiece.o: src/ChessPiece.cpp.o
 
 .PHONY : src/ChessPiece.o
@@ -176,6 +230,60 @@ src/GameManager.s: src/GameManager.cpp.s
 src/GameManager.cpp.s:
 	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/GameManager.cpp.s
 .PHONY : src/GameManager.cpp.s
+
+src/King.o: src/King.cpp.o
+
+.PHONY : src/King.o
+
+# target to build an object file
+src/King.cpp.o:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/King.cpp.o
+.PHONY : src/King.cpp.o
+
+src/King.i: src/King.cpp.i
+
+.PHONY : src/King.i
+
+# target to preprocess a source file
+src/King.cpp.i:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/King.cpp.i
+.PHONY : src/King.cpp.i
+
+src/King.s: src/King.cpp.s
+
+.PHONY : src/King.s
+
+# target to generate assembly for a file
+src/King.cpp.s:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/King.cpp.s
+.PHONY : src/King.cpp.s
+
+src/Knight.o: src/Knight.cpp.o
+
+.PHONY : src/Knight.o
+
+# target to build an object file
+src/Knight.cpp.o:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/Knight.cpp.o
+.PHONY : src/Knight.cpp.o
+
+src/Knight.i: src/Knight.cpp.i
+
+.PHONY : src/Knight.i
+
+# target to preprocess a source file
+src/Knight.cpp.i:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/Knight.cpp.i
+.PHONY : src/Knight.cpp.i
+
+src/Knight.s: src/Knight.cpp.s
+
+.PHONY : src/Knight.s
+
+# target to generate assembly for a file
+src/Knight.cpp.s:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/Knight.cpp.s
+.PHONY : src/Knight.cpp.s
 
 src/Main.o: src/Main.cpp.o
 
@@ -231,32 +339,113 @@ src/Pawn.cpp.s:
 	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/Pawn.cpp.s
 .PHONY : src/Pawn.cpp.s
 
-test/Tests.o: test/Tests.cpp.o
+src/Player.o: src/Player.cpp.o
 
-.PHONY : test/Tests.o
+.PHONY : src/Player.o
 
 # target to build an object file
-test/Tests.cpp.o:
-	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/test/Tests.cpp.o
-.PHONY : test/Tests.cpp.o
+src/Player.cpp.o:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/Player.cpp.o
+.PHONY : src/Player.cpp.o
 
-test/Tests.i: test/Tests.cpp.i
+src/Player.i: src/Player.cpp.i
 
-.PHONY : test/Tests.i
+.PHONY : src/Player.i
 
 # target to preprocess a source file
-test/Tests.cpp.i:
-	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/test/Tests.cpp.i
-.PHONY : test/Tests.cpp.i
+src/Player.cpp.i:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/Player.cpp.i
+.PHONY : src/Player.cpp.i
 
-test/Tests.s: test/Tests.cpp.s
+src/Player.s: src/Player.cpp.s
 
-.PHONY : test/Tests.s
+.PHONY : src/Player.s
 
 # target to generate assembly for a file
-test/Tests.cpp.s:
-	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/test/Tests.cpp.s
-.PHONY : test/Tests.cpp.s
+src/Player.cpp.s:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/Player.cpp.s
+.PHONY : src/Player.cpp.s
+
+src/Position.o: src/Position.cpp.o
+
+.PHONY : src/Position.o
+
+# target to build an object file
+src/Position.cpp.o:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/Position.cpp.o
+.PHONY : src/Position.cpp.o
+
+src/Position.i: src/Position.cpp.i
+
+.PHONY : src/Position.i
+
+# target to preprocess a source file
+src/Position.cpp.i:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/Position.cpp.i
+.PHONY : src/Position.cpp.i
+
+src/Position.s: src/Position.cpp.s
+
+.PHONY : src/Position.s
+
+# target to generate assembly for a file
+src/Position.cpp.s:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/Position.cpp.s
+.PHONY : src/Position.cpp.s
+
+src/Queen.o: src/Queen.cpp.o
+
+.PHONY : src/Queen.o
+
+# target to build an object file
+src/Queen.cpp.o:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/Queen.cpp.o
+.PHONY : src/Queen.cpp.o
+
+src/Queen.i: src/Queen.cpp.i
+
+.PHONY : src/Queen.i
+
+# target to preprocess a source file
+src/Queen.cpp.i:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/Queen.cpp.i
+.PHONY : src/Queen.cpp.i
+
+src/Queen.s: src/Queen.cpp.s
+
+.PHONY : src/Queen.s
+
+# target to generate assembly for a file
+src/Queen.cpp.s:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/Queen.cpp.s
+.PHONY : src/Queen.cpp.s
+
+src/Rook.o: src/Rook.cpp.o
+
+.PHONY : src/Rook.o
+
+# target to build an object file
+src/Rook.cpp.o:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/Rook.cpp.o
+.PHONY : src/Rook.cpp.o
+
+src/Rook.i: src/Rook.cpp.i
+
+.PHONY : src/Rook.i
+
+# target to preprocess a source file
+src/Rook.cpp.i:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/Rook.cpp.i
+.PHONY : src/Rook.cpp.i
+
+src/Rook.s: src/Rook.cpp.s
+
+.PHONY : src/Rook.s
+
+# target to generate assembly for a file
+src/Rook.cpp.s:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/Rook.cpp.s
+.PHONY : src/Rook.cpp.s
 
 # Help Target
 help:
@@ -267,21 +456,42 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Projekt3"
 	@echo "... edit_cache"
+	@echo "... src/BIshop.o"
+	@echo "... src/BIshop.i"
+	@echo "... src/BIshop.s"
+	@echo "... src/Board.o"
+	@echo "... src/Board.i"
+	@echo "... src/Board.s"
 	@echo "... src/ChessPiece.o"
 	@echo "... src/ChessPiece.i"
 	@echo "... src/ChessPiece.s"
 	@echo "... src/GameManager.o"
 	@echo "... src/GameManager.i"
 	@echo "... src/GameManager.s"
+	@echo "... src/King.o"
+	@echo "... src/King.i"
+	@echo "... src/King.s"
+	@echo "... src/Knight.o"
+	@echo "... src/Knight.i"
+	@echo "... src/Knight.s"
 	@echo "... src/Main.o"
 	@echo "... src/Main.i"
 	@echo "... src/Main.s"
 	@echo "... src/Pawn.o"
 	@echo "... src/Pawn.i"
 	@echo "... src/Pawn.s"
-	@echo "... test/Tests.o"
-	@echo "... test/Tests.i"
-	@echo "... test/Tests.s"
+	@echo "... src/Player.o"
+	@echo "... src/Player.i"
+	@echo "... src/Player.s"
+	@echo "... src/Position.o"
+	@echo "... src/Position.i"
+	@echo "... src/Position.s"
+	@echo "... src/Queen.o"
+	@echo "... src/Queen.i"
+	@echo "... src/Queen.s"
+	@echo "... src/Rook.o"
+	@echo "... src/Rook.i"
+	@echo "... src/Rook.s"
 .PHONY : help
 
 

@@ -13,7 +13,7 @@ class GameManager{
 	Board* board;
 
 public:
-	GameManager(Board* board, Player* players[2]);
+	GameManager(Board* board);
 	bool makeMove(Position chessPieceToMovePosition, Position positionToMoveTo, Color playerMovingColor);
 
 	bool checkIfIsInCheckMate(Color playerLosing);

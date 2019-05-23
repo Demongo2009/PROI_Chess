@@ -6,6 +6,7 @@
 #include "../include/Position.h"
 #include "../include/Pawn.h"
 
+
 bool Pawn::checkIfCanGoToPosition(Position fromPosition, Position toPosition, Board* board) {
 	int fromPositionX = fromPosition.getX();
 	int fromPositionY = fromPosition.getY();
@@ -15,24 +16,29 @@ bool Pawn::checkIfCanGoToPosition(Position fromPosition, Position toPosition, Bo
 
 	Direction direction;
 	if(color == WHITE){
-		direction = DOWN;
-	}else{
 		direction = UP;
+	}else{
+		direction = DOWN;
 	}
-
+	//check if killing enenmy
 	if( (toPositionY == fromPositionY+direction) &&
 		( (toPositionX == fromPositionX+1) || (toPositionX == fromPositionX-1) )){
-		ChessPiece* enemyChessPiece;
-		if( (enemyChessPiece = board->getChessPiece(toPosition)) ){
+		ChessPiece* enemyChessPiece = board->getChessPiece(toPosition);
+		if( (enemyChessPiece) ){
 			return true;
 		} else{
 			return false;
 		}
 	}
-	if( ((toPositionY == fromPositionY + 2*direction) || (toPositionY == fromPositionY + direction))
+
+	//check if normal move
+	if( ( ( (toPositionY == fromPositionY + 2*direction) && !hasMoved)
+	|| (toPositionY == fromPositionY + direction) )
 		&& (toPositionX == fromPositionX) ){
-		checkIfColliding(fromPosition,toPosition,direction,board);
+		return !checkIfColliding(fromPosition,toPosition,direction,board);
 	}
+
+	return false;
 }
 
 bool Pawn::checkIfColliding(Position fromPosition, Position toPosition, Direction direction, Board *board) {
@@ -41,10 +47,18 @@ bool Pawn::checkIfColliding(Position fromPosition, Position toPosition, Directio
 	int toPositionX = toPosition.getX();
 	int toPositionY = toPosition.getY();
 
-
-	for (int x = fromPositionX; x != toPositionX; x+direction) {
-		for (int y = 0; y < ; ++y) {
-
-		}
+	int y=fromPositionY+direction;
+	if( board->getChessPiece(Position(fromPositionX,y))){
+		return true;
 	}
+	if(y == toPositionY){
+		return false;
+	}
+	y+=direction;
+	if( board->getChessPiece( Position(fromPositionX,y) ) ){
+		return true;
+	}else{
+		return false;
+	}
+
 }

@@ -9,9 +9,9 @@
 #include "Board.h"
 
 class Pawn: public ChessPiece{
-	Color color;
 	bool hasMoved = false;
 public:
+	Pawn(Color color):ChessPiece(color,'P'){};
 	bool checkIfCanGoToPosition(Position fromPosition, Position toPosition, Board* board);
 	bool checkIfColliding(Position fromPosition, Position toPosition, Direction direction, Board* board);
 };
