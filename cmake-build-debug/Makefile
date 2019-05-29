@@ -123,32 +123,32 @@ Projekt3/fast:
 	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/build
 .PHONY : Projekt3/fast
 
-src/BIshop.o: src/BIshop.cpp.o
+src/Bishop.o: src/Bishop.cpp.o
 
-.PHONY : src/BIshop.o
+.PHONY : src/Bishop.o
 
 # target to build an object file
-src/BIshop.cpp.o:
-	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/BIshop.cpp.o
-.PHONY : src/BIshop.cpp.o
+src/Bishop.cpp.o:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/Bishop.cpp.o
+.PHONY : src/Bishop.cpp.o
 
-src/BIshop.i: src/BIshop.cpp.i
+src/Bishop.i: src/Bishop.cpp.i
 
-.PHONY : src/BIshop.i
+.PHONY : src/Bishop.i
 
 # target to preprocess a source file
-src/BIshop.cpp.i:
-	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/BIshop.cpp.i
-.PHONY : src/BIshop.cpp.i
+src/Bishop.cpp.i:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/Bishop.cpp.i
+.PHONY : src/Bishop.cpp.i
 
-src/BIshop.s: src/BIshop.cpp.s
+src/Bishop.s: src/Bishop.cpp.s
 
-.PHONY : src/BIshop.s
+.PHONY : src/Bishop.s
 
 # target to generate assembly for a file
-src/BIshop.cpp.s:
-	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/BIshop.cpp.s
-.PHONY : src/BIshop.cpp.s
+src/Bishop.cpp.s:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/Bishop.cpp.s
+.PHONY : src/Bishop.cpp.s
 
 src/Board.o: src/Board.cpp.o
 
@@ -203,6 +203,33 @@ src/ChessPiece.s: src/ChessPiece.cpp.s
 src/ChessPiece.cpp.s:
 	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/ChessPiece.cpp.s
 .PHONY : src/ChessPiece.cpp.s
+
+src/GameInterface.o: src/GameInterface.cpp.o
+
+.PHONY : src/GameInterface.o
+
+# target to build an object file
+src/GameInterface.cpp.o:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/GameInterface.cpp.o
+.PHONY : src/GameInterface.cpp.o
+
+src/GameInterface.i: src/GameInterface.cpp.i
+
+.PHONY : src/GameInterface.i
+
+# target to preprocess a source file
+src/GameInterface.cpp.i:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/GameInterface.cpp.i
+.PHONY : src/GameInterface.cpp.i
+
+src/GameInterface.s: src/GameInterface.cpp.s
+
+.PHONY : src/GameInterface.s
+
+# target to generate assembly for a file
+src/GameInterface.cpp.s:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/GameInterface.cpp.s
+.PHONY : src/GameInterface.cpp.s
 
 src/GameManager.o: src/GameManager.cpp.o
 
@@ -447,6 +474,33 @@ src/Rook.cpp.s:
 	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/src/Rook.cpp.s
 .PHONY : src/Rook.cpp.s
 
+test/Tests.o: test/Tests.cpp.o
+
+.PHONY : test/Tests.o
+
+# target to build an object file
+test/Tests.cpp.o:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/test/Tests.cpp.o
+.PHONY : test/Tests.cpp.o
+
+test/Tests.i: test/Tests.cpp.i
+
+.PHONY : test/Tests.i
+
+# target to preprocess a source file
+test/Tests.cpp.i:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/test/Tests.cpp.i
+.PHONY : test/Tests.cpp.i
+
+test/Tests.s: test/Tests.cpp.s
+
+.PHONY : test/Tests.s
+
+# target to generate assembly for a file
+test/Tests.cpp.s:
+	$(MAKE) -f CMakeFiles/Projekt3.dir/build.make CMakeFiles/Projekt3.dir/test/Tests.cpp.s
+.PHONY : test/Tests.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -456,15 +510,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Projekt3"
 	@echo "... edit_cache"
-	@echo "... src/BIshop.o"
-	@echo "... src/BIshop.i"
-	@echo "... src/BIshop.s"
+	@echo "... src/Bishop.o"
+	@echo "... src/Bishop.i"
+	@echo "... src/Bishop.s"
 	@echo "... src/Board.o"
 	@echo "... src/Board.i"
 	@echo "... src/Board.s"
 	@echo "... src/ChessPiece.o"
 	@echo "... src/ChessPiece.i"
 	@echo "... src/ChessPiece.s"
+	@echo "... src/GameInterface.o"
+	@echo "... src/GameInterface.i"
+	@echo "... src/GameInterface.s"
 	@echo "... src/GameManager.o"
 	@echo "... src/GameManager.i"
 	@echo "... src/GameManager.s"
@@ -492,6 +549,9 @@ help:
 	@echo "... src/Rook.o"
 	@echo "... src/Rook.i"
 	@echo "... src/Rook.s"
+	@echo "... test/Tests.o"
+	@echo "... test/Tests.i"
+	@echo "... test/Tests.s"
 .PHONY : help
 
 

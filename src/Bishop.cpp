@@ -31,7 +31,8 @@ bool Bishop::checkIfCollidingDiagonally(Position fromPosition, Position toPositi
 	while (fromPositionX!=toPositionX && fromPositionY!=toPositionY){
 		fromPositionX += sgn(toPositionX - fromPositionX);
 		fromPositionY += sgn(toPositionY - fromPositionY);
-		if( board->getChessPiece( Position(fromPositionX,fromPositionY) ) ){
+		ChessPiece* suspect = board->getChessPiece( Position(fromPositionX,fromPositionY) );
+		if( suspect && suspect->getColor() == color ){
 			return true;
 		}
 	}

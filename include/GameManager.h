@@ -12,10 +12,6 @@ class GameManager{
 //	Player* players[2];
 	Board* board;
 
-public:
-	GameManager(Board* board);
-	bool makeMove(Position chessPieceToMovePosition, Position positionToMoveTo, Color playerMovingColor);
-
 	bool checkIfIsInCheckMate(Color playerLosing);
 
 	bool checkIfChessPieceBelongsToPlayer(Position position, Color player);
@@ -33,6 +29,14 @@ public:
 	bool checkIfOutOfBounds(Position position);
 
 	void checkIfIsInCheck(Color playerLoosingColor);
+public:
+	GameManager(Board* board);
+
+	bool makeMove(Position chessPieceToMovePosition, Position positionToMoveTo, Color playerMovingColor);
+
+	std::string boardToString();
+
+
 };
 
 #endif //PROJEKT3_GAMEMANAGER_H

@@ -26,7 +26,11 @@ bool King::checkIfCanGoToPosition(Position fromPosition, Position toPosition, Bo
 }
 
 bool King::checkIfColliding(Position fromPosition, Position toPosition, Board *board) {
-	if(board->getChessPiece(toPosition)){
+	int toPositionX = toPosition.getX();
+	int toPositionY = toPosition.getY();
+
+	ChessPiece* suspect = board->getChessPiece( Position(toPositionX,toPositionY) );
+	if(suspect && suspect->getColor() == color){
 		return true;
 	}
 	return false;

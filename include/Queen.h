@@ -9,11 +9,11 @@
 
 class Queen: public ChessPiece{
 
+	bool checkIfCollidingPerpendicularly(Position fromPosition, Position toPosition, Board* board);
+	bool checkIfCollidingDiagonally(Position fromPosition, Position toPosition, Board* board);
 public:
 	Queen(Color color):ChessPiece(color,'Q'){};
 	bool checkIfCanGoToPosition(Position fromPosition, Position toPosition, Board* board);
-	bool checkIfCollidingPerpendicularly(Position fromPosition, Position toPosition, Board* board);
-	bool checkIfCollidingDiagonally(Position fromPosition, Position toPosition, Board* board);
 
 };
 

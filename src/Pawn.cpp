@@ -25,6 +25,8 @@ bool Pawn::checkIfCanGoToPosition(Position fromPosition, Position toPosition, Bo
 		( (toPositionX == fromPositionX+1) || (toPositionX == fromPositionX-1) )){
 		ChessPiece* enemyChessPiece = board->getChessPiece(toPosition);
 		if( (enemyChessPiece) ){
+			hasMoved=true;
+
 			return true;
 		} else{
 			return false;
@@ -35,7 +37,12 @@ bool Pawn::checkIfCanGoToPosition(Position fromPosition, Position toPosition, Bo
 	if( ( ( (toPositionY == fromPositionY + 2*direction) && !hasMoved)
 	|| (toPositionY == fromPositionY + direction) )
 		&& (toPositionX == fromPositionX) ){
-		return !checkIfColliding(fromPosition,toPosition,direction,board);
+		if(checkIfColliding(fromPosition,toPosition,direction,board)){
+			return false;
+		} else{
+			hasMoved=true;
+			return true;
+		}
 	}
 
 	return false;
@@ -48,14 +55,16 @@ bool Pawn::checkIfColliding(Position fromPosition, Position toPosition, Directio
 	int toPositionY = toPosition.getY();
 
 	int y=fromPositionY+direction;
-	if( board->getChessPiece(Position(fromPositionX,y))){
+	ChessPiece* suspect = board->getChessPiece(Position(fromPositionX,y));
+	if( suspect && suspect->getColor()==color ){
 		return true;
 	}
 	if(y == toPositionY){
 		return false;
 	}
 	y+=direction;
-	if( board->getChessPiece( Position(fromPositionX,y) ) ){
+	suspect = board->getChessPiece( Position(fromPositionX,y));
+	if( suspect && suspect->getColor()==color ){
 		return true;
 	}else{
 		return false;

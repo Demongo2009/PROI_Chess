@@ -33,13 +33,15 @@ bool Queen::checkIfCollidingPerpendicularly(Position fromPosition, Position toPo
 
 	while(fromPositionX!=toPositionX){
 		fromPositionX += sgn(toPositionX - fromPositionX);
-		if( board->getChessPiece( Position(fromPositionX,fromPositionY) ) ){
+		ChessPiece* suspect = board->getChessPiece( Position(fromPositionX,fromPositionY) );
+		if( suspect && suspect->getColor() == color){
 			return true;
 		}
 	}
 	while(fromPositionY!=toPositionY){
 		fromPositionY += sgn(toPositionY - fromPositionY);
-		if( board->getChessPiece( Position(fromPositionX,fromPositionY) ) ){
+		ChessPiece* suspect = board->getChessPiece( Position(fromPositionX,fromPositionY) );
+		if( suspect && suspect->getColor() == color){
 			return true;
 		}
 	}
@@ -56,7 +58,8 @@ bool Queen::checkIfCollidingDiagonally(Position fromPosition, Position toPositio
 	while (fromPositionX!=toPositionX && fromPositionY!=toPositionY){
 		fromPositionX += sgn(toPositionX - fromPositionX);
 		fromPositionY += sgn(toPositionY - fromPositionY);
-		if( board->getChessPiece( Position(fromPositionX,fromPositionY) ) ){
+		ChessPiece* suspect = board->getChessPiece( Position(fromPositionX,fromPositionY) );
+		if( suspect && suspect->getColor() == color){
 			return true;
 		}
 	}

@@ -4,9 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/demongo/Clion/projects/Projekt3/src/BIshop.cpp" "/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles/Projekt3.dir/src/BIshop.cpp.o"
+  "/home/demongo/Clion/projects/Projekt3/src/Bishop.cpp" "/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles/Projekt3.dir/src/Bishop.cpp.o"
   "/home/demongo/Clion/projects/Projekt3/src/Board.cpp" "/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles/Projekt3.dir/src/Board.cpp.o"
   "/home/demongo/Clion/projects/Projekt3/src/ChessPiece.cpp" "/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles/Projekt3.dir/src/ChessPiece.cpp.o"
+  "/home/demongo/Clion/projects/Projekt3/src/GameInterface.cpp" "/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles/Projekt3.dir/src/GameInterface.cpp.o"
   "/home/demongo/Clion/projects/Projekt3/src/GameManager.cpp" "/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles/Projekt3.dir/src/GameManager.cpp.o"
   "/home/demongo/Clion/projects/Projekt3/src/King.cpp" "/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles/Projekt3.dir/src/King.cpp.o"
   "/home/demongo/Clion/projects/Projekt3/src/Knight.cpp" "/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles/Projekt3.dir/src/Knight.cpp.o"
@@ -16,6 +17,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/demongo/Clion/projects/Projekt3/src/Position.cpp" "/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles/Projekt3.dir/src/Position.cpp.o"
   "/home/demongo/Clion/projects/Projekt3/src/Queen.cpp" "/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles/Projekt3.dir/src/Queen.cpp.o"
   "/home/demongo/Clion/projects/Projekt3/src/Rook.cpp" "/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles/Projekt3.dir/src/Rook.cpp.o"
+  "/home/demongo/Clion/projects/Projekt3/test/Tests.cpp" "/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles/Projekt3.dir/test/Tests.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

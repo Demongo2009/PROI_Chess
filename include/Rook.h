@@ -9,10 +9,10 @@
 
 class Rook: public ChessPiece{
 
+	bool checkIfCollidingPerpendicularly(Position fromPosition, Position toPosition, Board* board);
 public:
 	Rook(Color color):ChessPiece(color,'H'){};
 	bool checkIfCanGoToPosition(Position fromPosition, Position toPosition, Board* board);
-	bool checkIfCollidingPerpendicularly(Position fromPosition, Position toPosition, Board* board);
 
 
 };

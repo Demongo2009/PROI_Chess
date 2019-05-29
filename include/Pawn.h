@@ -10,10 +10,10 @@
 
 class Pawn: public ChessPiece{
 	bool hasMoved = false;
+	bool checkIfColliding(Position fromPosition, Position toPosition, Direction direction, Board* board);
 public:
 	Pawn(Color color):ChessPiece(color,'P'){};
 	bool checkIfCanGoToPosition(Position fromPosition, Position toPosition, Board* board);
-	bool checkIfColliding(Position fromPosition, Position toPosition, Direction direction, Board* board);
 };
 
 #endif //PROJEKT3_PAWN_H

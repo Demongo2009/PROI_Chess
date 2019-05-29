@@ -30,9 +30,14 @@ std::string Board::toString() {
 	for(int i=BOARD_SIZE-1; i>=0;i--){
 		for(int j=0; j<BOARD_SIZE; j++){
 			if(board[j][i]){
-				ss<< board[j][i]->getIcon()<<" ";
+				if(board[j][i]->getColor() == WHITE) {
+					ss << "\033[0m" << board[j][i]->getIcon() << "\033[0m" << " ";
+				} else{
+					ss << "\033[1;31m" << board[j][i]->getIcon() << "\033[0m" << " ";
+
+				}
 			} else{
-				ss<< "+ ";
+				ss<< "\033[37m+ \033[0m";
 			}
 		}
 		ss<<"\n";

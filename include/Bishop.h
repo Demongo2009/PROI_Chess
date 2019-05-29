@@ -9,10 +9,10 @@
 
 class Bishop: public ChessPiece{
 
+	bool checkIfCollidingDiagonally(Position fromPosition, Position toPosition, Board *board);
 public:
 	Bishop(Color color):ChessPiece(color,'B'){};
 	bool checkIfCanGoToPosition(Position fromPosition, Position toPosition, Board* board);
-	bool checkIfCollidingDiagonally(Position fromPosition, Position toPosition, Board *board);
 };
 
 #endif //PROJEKT3_BISHOP_H

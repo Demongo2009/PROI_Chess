@@ -39,7 +39,6 @@ GameManager::GameManager(Board *board) {
 	board->setChessPiece(new King(WHITE),Position(4,0));
 	board->setChessPiece(new King(BLACK),Position(4,7));
 
-
 }
 
 bool GameManager::makeMove(Position chessPieceToMovePositionOld, Position positionToMoveToOld, Color playerMovingColor) {
@@ -72,6 +71,10 @@ bool GameManager::makeMove(Position chessPieceToMovePositionOld, Position positi
 	moveChessPiece(chessPieceToMovePosition,positionToMoveTo);
 	return true;
 
+}
+
+std::string GameManager::boardToString() {
+	return board->toString();
 }
 
 bool GameManager::checkIfChessPieceCanBeMovedTo(Position position, Position toPosition) {

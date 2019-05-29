@@ -98,6 +98,9 @@
 		<Unit filename="/home/demongo/Clion/projects/Projekt3/include/Enums.h">
 			<Option target="Projekt3"/>
 		</Unit>
+		<Unit filename="/home/demongo/Clion/projects/Projekt3/include/GameInterface.h">
+			<Option target="Projekt3"/>
+		</Unit>
 		<Unit filename="/home/demongo/Clion/projects/Projekt3/include/GameManager.h">
 			<Option target="Projekt3"/>
 		</Unit>
@@ -128,13 +131,16 @@
 		<Unit filename="/home/demongo/Clion/projects/Projekt3/include/UtilityFunctions.h">
 			<Option target="Projekt3"/>
 		</Unit>
-		<Unit filename="/home/demongo/Clion/projects/Projekt3/src/BIshop.cpp">
+		<Unit filename="/home/demongo/Clion/projects/Projekt3/src/Bishop.cpp">
 			<Option target="Projekt3"/>
 		</Unit>
 		<Unit filename="/home/demongo/Clion/projects/Projekt3/src/Board.cpp">
 			<Option target="Projekt3"/>
 		</Unit>
 		<Unit filename="/home/demongo/Clion/projects/Projekt3/src/ChessPiece.cpp">
+			<Option target="Projekt3"/>
+		</Unit>
+		<Unit filename="/home/demongo/Clion/projects/Projekt3/src/GameInterface.cpp">
 			<Option target="Projekt3"/>
 		</Unit>
 		<Unit filename="/home/demongo/Clion/projects/Projekt3/src/GameManager.cpp">
@@ -162,6 +168,12 @@
 			<Option target="Projekt3"/>
 		</Unit>
 		<Unit filename="/home/demongo/Clion/projects/Projekt3/src/Rook.cpp">
+			<Option target="Projekt3"/>
+		</Unit>
+		<Unit filename="/home/demongo/Clion/projects/Projekt3/test/Tests.cpp">
+			<Option target="Projekt3"/>
+		</Unit>
+		<Unit filename="/home/demongo/Clion/projects/Projekt3/test/catch.hpp">
 			<Option target="Projekt3"/>
 		</Unit>
 		<Unit filename="/home/demongo/Clion/projects/Projekt3/CMakeLists.txt">

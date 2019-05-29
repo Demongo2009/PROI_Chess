@@ -70,9 +70,22 @@ CMakeFiles/Projekt3.dir/src/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projekt3.dir/src/Main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demongo/Clion/projects/Projekt3/src/Main.cpp -o CMakeFiles/Projekt3.dir/src/Main.cpp.s
 
+CMakeFiles/Projekt3.dir/test/Tests.cpp.o: CMakeFiles/Projekt3.dir/flags.make
+CMakeFiles/Projekt3.dir/test/Tests.cpp.o: ../test/Tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Projekt3.dir/test/Tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Projekt3.dir/test/Tests.cpp.o -c /home/demongo/Clion/projects/Projekt3/test/Tests.cpp
+
+CMakeFiles/Projekt3.dir/test/Tests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Projekt3.dir/test/Tests.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demongo/Clion/projects/Projekt3/test/Tests.cpp > CMakeFiles/Projekt3.dir/test/Tests.cpp.i
+
+CMakeFiles/Projekt3.dir/test/Tests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projekt3.dir/test/Tests.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demongo/Clion/projects/Projekt3/test/Tests.cpp -o CMakeFiles/Projekt3.dir/test/Tests.cpp.s
+
 CMakeFiles/Projekt3.dir/src/GameManager.cpp.o: CMakeFiles/Projekt3.dir/flags.make
 CMakeFiles/Projekt3.dir/src/GameManager.cpp.o: ../src/GameManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Projekt3.dir/src/GameManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Projekt3.dir/src/GameManager.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Projekt3.dir/src/GameManager.cpp.o -c /home/demongo/Clion/projects/Projekt3/src/GameManager.cpp
 
 CMakeFiles/Projekt3.dir/src/GameManager.cpp.i: cmake_force
@@ -85,7 +98,7 @@ CMakeFiles/Projekt3.dir/src/GameManager.cpp.s: cmake_force
 
 CMakeFiles/Projekt3.dir/src/ChessPiece.cpp.o: CMakeFiles/Projekt3.dir/flags.make
 CMakeFiles/Projekt3.dir/src/ChessPiece.cpp.o: ../src/ChessPiece.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Projekt3.dir/src/ChessPiece.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Projekt3.dir/src/ChessPiece.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Projekt3.dir/src/ChessPiece.cpp.o -c /home/demongo/Clion/projects/Projekt3/src/ChessPiece.cpp
 
 CMakeFiles/Projekt3.dir/src/ChessPiece.cpp.i: cmake_force
@@ -98,7 +111,7 @@ CMakeFiles/Projekt3.dir/src/ChessPiece.cpp.s: cmake_force
 
 CMakeFiles/Projekt3.dir/src/Pawn.cpp.o: CMakeFiles/Projekt3.dir/flags.make
 CMakeFiles/Projekt3.dir/src/Pawn.cpp.o: ../src/Pawn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Projekt3.dir/src/Pawn.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Projekt3.dir/src/Pawn.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Projekt3.dir/src/Pawn.cpp.o -c /home/demongo/Clion/projects/Projekt3/src/Pawn.cpp
 
 CMakeFiles/Projekt3.dir/src/Pawn.cpp.i: cmake_force
@@ -111,7 +124,7 @@ CMakeFiles/Projekt3.dir/src/Pawn.cpp.s: cmake_force
 
 CMakeFiles/Projekt3.dir/src/Rook.cpp.o: CMakeFiles/Projekt3.dir/flags.make
 CMakeFiles/Projekt3.dir/src/Rook.cpp.o: ../src/Rook.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Projekt3.dir/src/Rook.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Projekt3.dir/src/Rook.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Projekt3.dir/src/Rook.cpp.o -c /home/demongo/Clion/projects/Projekt3/src/Rook.cpp
 
 CMakeFiles/Projekt3.dir/src/Rook.cpp.i: cmake_force
@@ -124,7 +137,7 @@ CMakeFiles/Projekt3.dir/src/Rook.cpp.s: cmake_force
 
 CMakeFiles/Projekt3.dir/src/Knight.cpp.o: CMakeFiles/Projekt3.dir/flags.make
 CMakeFiles/Projekt3.dir/src/Knight.cpp.o: ../src/Knight.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Projekt3.dir/src/Knight.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Projekt3.dir/src/Knight.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Projekt3.dir/src/Knight.cpp.o -c /home/demongo/Clion/projects/Projekt3/src/Knight.cpp
 
 CMakeFiles/Projekt3.dir/src/Knight.cpp.i: cmake_force
@@ -135,22 +148,22 @@ CMakeFiles/Projekt3.dir/src/Knight.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projekt3.dir/src/Knight.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demongo/Clion/projects/Projekt3/src/Knight.cpp -o CMakeFiles/Projekt3.dir/src/Knight.cpp.s
 
-CMakeFiles/Projekt3.dir/src/BIshop.cpp.o: CMakeFiles/Projekt3.dir/flags.make
-CMakeFiles/Projekt3.dir/src/BIshop.cpp.o: ../src/BIshop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Projekt3.dir/src/BIshop.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Projekt3.dir/src/BIshop.cpp.o -c /home/demongo/Clion/projects/Projekt3/src/BIshop.cpp
+CMakeFiles/Projekt3.dir/src/Bishop.cpp.o: CMakeFiles/Projekt3.dir/flags.make
+CMakeFiles/Projekt3.dir/src/Bishop.cpp.o: ../src/Bishop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Projekt3.dir/src/Bishop.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Projekt3.dir/src/Bishop.cpp.o -c /home/demongo/Clion/projects/Projekt3/src/Bishop.cpp
 
-CMakeFiles/Projekt3.dir/src/BIshop.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Projekt3.dir/src/BIshop.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demongo/Clion/projects/Projekt3/src/BIshop.cpp > CMakeFiles/Projekt3.dir/src/BIshop.cpp.i
+CMakeFiles/Projekt3.dir/src/Bishop.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Projekt3.dir/src/Bishop.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demongo/Clion/projects/Projekt3/src/Bishop.cpp > CMakeFiles/Projekt3.dir/src/Bishop.cpp.i
 
-CMakeFiles/Projekt3.dir/src/BIshop.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projekt3.dir/src/BIshop.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demongo/Clion/projects/Projekt3/src/BIshop.cpp -o CMakeFiles/Projekt3.dir/src/BIshop.cpp.s
+CMakeFiles/Projekt3.dir/src/Bishop.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projekt3.dir/src/Bishop.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demongo/Clion/projects/Projekt3/src/Bishop.cpp -o CMakeFiles/Projekt3.dir/src/Bishop.cpp.s
 
 CMakeFiles/Projekt3.dir/src/Queen.cpp.o: CMakeFiles/Projekt3.dir/flags.make
 CMakeFiles/Projekt3.dir/src/Queen.cpp.o: ../src/Queen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Projekt3.dir/src/Queen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Projekt3.dir/src/Queen.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Projekt3.dir/src/Queen.cpp.o -c /home/demongo/Clion/projects/Projekt3/src/Queen.cpp
 
 CMakeFiles/Projekt3.dir/src/Queen.cpp.i: cmake_force
@@ -163,7 +176,7 @@ CMakeFiles/Projekt3.dir/src/Queen.cpp.s: cmake_force
 
 CMakeFiles/Projekt3.dir/src/King.cpp.o: CMakeFiles/Projekt3.dir/flags.make
 CMakeFiles/Projekt3.dir/src/King.cpp.o: ../src/King.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Projekt3.dir/src/King.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Projekt3.dir/src/King.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Projekt3.dir/src/King.cpp.o -c /home/demongo/Clion/projects/Projekt3/src/King.cpp
 
 CMakeFiles/Projekt3.dir/src/King.cpp.i: cmake_force
@@ -176,7 +189,7 @@ CMakeFiles/Projekt3.dir/src/King.cpp.s: cmake_force
 
 CMakeFiles/Projekt3.dir/src/Player.cpp.o: CMakeFiles/Projekt3.dir/flags.make
 CMakeFiles/Projekt3.dir/src/Player.cpp.o: ../src/Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Projekt3.dir/src/Player.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Projekt3.dir/src/Player.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Projekt3.dir/src/Player.cpp.o -c /home/demongo/Clion/projects/Projekt3/src/Player.cpp
 
 CMakeFiles/Projekt3.dir/src/Player.cpp.i: cmake_force
@@ -189,7 +202,7 @@ CMakeFiles/Projekt3.dir/src/Player.cpp.s: cmake_force
 
 CMakeFiles/Projekt3.dir/src/Board.cpp.o: CMakeFiles/Projekt3.dir/flags.make
 CMakeFiles/Projekt3.dir/src/Board.cpp.o: ../src/Board.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Projekt3.dir/src/Board.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Projekt3.dir/src/Board.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Projekt3.dir/src/Board.cpp.o -c /home/demongo/Clion/projects/Projekt3/src/Board.cpp
 
 CMakeFiles/Projekt3.dir/src/Board.cpp.i: cmake_force
@@ -202,7 +215,7 @@ CMakeFiles/Projekt3.dir/src/Board.cpp.s: cmake_force
 
 CMakeFiles/Projekt3.dir/src/Position.cpp.o: CMakeFiles/Projekt3.dir/flags.make
 CMakeFiles/Projekt3.dir/src/Position.cpp.o: ../src/Position.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Projekt3.dir/src/Position.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Projekt3.dir/src/Position.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Projekt3.dir/src/Position.cpp.o -c /home/demongo/Clion/projects/Projekt3/src/Position.cpp
 
 CMakeFiles/Projekt3.dir/src/Position.cpp.i: cmake_force
@@ -213,39 +226,56 @@ CMakeFiles/Projekt3.dir/src/Position.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projekt3.dir/src/Position.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demongo/Clion/projects/Projekt3/src/Position.cpp -o CMakeFiles/Projekt3.dir/src/Position.cpp.s
 
+CMakeFiles/Projekt3.dir/src/GameInterface.cpp.o: CMakeFiles/Projekt3.dir/flags.make
+CMakeFiles/Projekt3.dir/src/GameInterface.cpp.o: ../src/GameInterface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Projekt3.dir/src/GameInterface.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Projekt3.dir/src/GameInterface.cpp.o -c /home/demongo/Clion/projects/Projekt3/src/GameInterface.cpp
+
+CMakeFiles/Projekt3.dir/src/GameInterface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Projekt3.dir/src/GameInterface.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demongo/Clion/projects/Projekt3/src/GameInterface.cpp > CMakeFiles/Projekt3.dir/src/GameInterface.cpp.i
+
+CMakeFiles/Projekt3.dir/src/GameInterface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projekt3.dir/src/GameInterface.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demongo/Clion/projects/Projekt3/src/GameInterface.cpp -o CMakeFiles/Projekt3.dir/src/GameInterface.cpp.s
+
 # Object files for target Projekt3
 Projekt3_OBJECTS = \
 "CMakeFiles/Projekt3.dir/src/Main.cpp.o" \
+"CMakeFiles/Projekt3.dir/test/Tests.cpp.o" \
 "CMakeFiles/Projekt3.dir/src/GameManager.cpp.o" \
 "CMakeFiles/Projekt3.dir/src/ChessPiece.cpp.o" \
 "CMakeFiles/Projekt3.dir/src/Pawn.cpp.o" \
 "CMakeFiles/Projekt3.dir/src/Rook.cpp.o" \
 "CMakeFiles/Projekt3.dir/src/Knight.cpp.o" \
-"CMakeFiles/Projekt3.dir/src/BIshop.cpp.o" \
+"CMakeFiles/Projekt3.dir/src/Bishop.cpp.o" \
 "CMakeFiles/Projekt3.dir/src/Queen.cpp.o" \
 "CMakeFiles/Projekt3.dir/src/King.cpp.o" \
 "CMakeFiles/Projekt3.dir/src/Player.cpp.o" \
 "CMakeFiles/Projekt3.dir/src/Board.cpp.o" \
-"CMakeFiles/Projekt3.dir/src/Position.cpp.o"
+"CMakeFiles/Projekt3.dir/src/Position.cpp.o" \
+"CMakeFiles/Projekt3.dir/src/GameInterface.cpp.o"
 
 # External object files for target Projekt3
 Projekt3_EXTERNAL_OBJECTS =
 
 Projekt3: CMakeFiles/Projekt3.dir/src/Main.cpp.o
+Projekt3: CMakeFiles/Projekt3.dir/test/Tests.cpp.o
 Projekt3: CMakeFiles/Projekt3.dir/src/GameManager.cpp.o
 Projekt3: CMakeFiles/Projekt3.dir/src/ChessPiece.cpp.o
 Projekt3: CMakeFiles/Projekt3.dir/src/Pawn.cpp.o
 Projekt3: CMakeFiles/Projekt3.dir/src/Rook.cpp.o
 Projekt3: CMakeFiles/Projekt3.dir/src/Knight.cpp.o
-Projekt3: CMakeFiles/Projekt3.dir/src/BIshop.cpp.o
+Projekt3: CMakeFiles/Projekt3.dir/src/Bishop.cpp.o
 Projekt3: CMakeFiles/Projekt3.dir/src/Queen.cpp.o
 Projekt3: CMakeFiles/Projekt3.dir/src/King.cpp.o
 Projekt3: CMakeFiles/Projekt3.dir/src/Player.cpp.o
 Projekt3: CMakeFiles/Projekt3.dir/src/Board.cpp.o
 Projekt3: CMakeFiles/Projekt3.dir/src/Position.cpp.o
+Projekt3: CMakeFiles/Projekt3.dir/src/GameInterface.cpp.o
 Projekt3: CMakeFiles/Projekt3.dir/build.make
 Projekt3: CMakeFiles/Projekt3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Projekt3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/demongo/Clion/projects/Projekt3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable Projekt3"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Projekt3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
