@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/demongo/Clion/projects/Projekt3/include/Bishop.h
+ChessPiece.h
+/home/demongo/Clion/projects/Projekt3/include/ChessPiece.h
+
 /home/demongo/Clion/projects/Projekt3/include/Board.h
 string
 -
@@ -22,6 +26,20 @@ Board.h
 
 /home/demongo/Clion/projects/Projekt3/include/Enums.h
 
+/home/demongo/Clion/projects/Projekt3/include/GameManager.h
+Board.h
+/home/demongo/Clion/projects/Projekt3/include/Board.h
+Player.h
+/home/demongo/Clion/projects/Projekt3/include/Player.h
+
+/home/demongo/Clion/projects/Projekt3/include/King.h
+ChessPiece.h
+/home/demongo/Clion/projects/Projekt3/include/ChessPiece.h
+
+/home/demongo/Clion/projects/Projekt3/include/Knight.h
+ChessPiece.h
+/home/demongo/Clion/projects/Projekt3/include/ChessPiece.h
+
 /home/demongo/Clion/projects/Projekt3/include/PathPattern.h
 Position.h
 /home/demongo/Clion/projects/Projekt3/include/Position.h
@@ -34,13 +52,39 @@ ChessPiece.h
 Board.h
 /home/demongo/Clion/projects/Projekt3/include/Board.h
 
+/home/demongo/Clion/projects/Projekt3/include/Player.h
+string
+-
+Enums.h
+/home/demongo/Clion/projects/Projekt3/include/Enums.h
+
 /home/demongo/Clion/projects/Projekt3/include/Position.h
 
-/home/demongo/Clion/projects/Projekt3/src/Pawn.cpp
-cstdlib
--
-../include/Position.h
-/home/demongo/Clion/projects/Projekt3/include/Position.h
+/home/demongo/Clion/projects/Projekt3/include/Queen.h
+ChessPiece.h
+/home/demongo/Clion/projects/Projekt3/include/ChessPiece.h
+
+/home/demongo/Clion/projects/Projekt3/include/Rook.h
+ChessPiece.h
+/home/demongo/Clion/projects/Projekt3/include/ChessPiece.h
+
+/home/demongo/Clion/projects/Projekt3/src/GameManager.cpp
+../include/Player.h
+/home/demongo/Clion/projects/Projekt3/include/Player.h
+../include/Board.h
+/home/demongo/Clion/projects/Projekt3/include/Board.h
+../include/GameManager.h
+/home/demongo/Clion/projects/Projekt3/include/GameManager.h
 ../include/Pawn.h
 /home/demongo/Clion/projects/Projekt3/include/Pawn.h
+../include/Rook.h
+/home/demongo/Clion/projects/Projekt3/include/Rook.h
+../include/King.h
+/home/demongo/Clion/projects/Projekt3/include/King.h
+../include/Knight.h
+/home/demongo/Clion/projects/Projekt3/include/Knight.h
+../include/Bishop.h
+/home/demongo/Clion/projects/Projekt3/include/Bishop.h
+../include/Queen.h
+/home/demongo/Clion/projects/Projekt3/include/Queen.h
 

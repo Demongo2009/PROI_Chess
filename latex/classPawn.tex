@@ -1,0 +1,108 @@
+\hypertarget{classPawn}{}\section{Pawn Class Reference}
+\label{classPawn}\index{Pawn@{Pawn}}
+
+
+Class responsible for pawn chess piece actions.  
+
+
+
+
+{\ttfamily \#include $<$Pawn.\+h$>$}
+
+
+
+Inheritance diagram for Pawn\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=150pt]{classPawn__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Pawn\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=150pt]{classPawn__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classPawn_a3e1ac517cf828f52957f54179a455922}{Pawn} (\hyperlink{Enums_8h_ab87bacfdad76e61b9412d7124be44c1c}{Color} \hyperlink{classChessPiece_a8c8fc170e7c719ac2b71a93a56a38f01}{color})
+\begin{DoxyCompactList}\small\item\em Constructor using \hyperlink{classChessPiece}{Chess\+Piece} constructor and \textquotesingle{}P\textquotesingle{} as an icon. \end{DoxyCompactList}\item 
+bool \hyperlink{classPawn_a30abb1fc67dffcd5f9ae104baf3e27ac}{check\+If\+Can\+Go\+To\+Position} (\hyperlink{classPosition}{Position} from\+Position, \hyperlink{classPosition}{Position} to\+Position, \hyperlink{classBoard}{Board} $\ast$board)
+\begin{DoxyCompactList}\small\item\em Checks if pawn form from\+Position can go to to\+Position. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Class responsible for pawn chess piece actions. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classPawn_a3e1ac517cf828f52957f54179a455922}\label{classPawn_a3e1ac517cf828f52957f54179a455922}} 
+\index{Pawn@{Pawn}!Pawn@{Pawn}}
+\index{Pawn@{Pawn}!Pawn@{Pawn}}
+\subsubsection{\texorpdfstring{Pawn()}{Pawn()}}
+{\footnotesize\ttfamily Pawn\+::\+Pawn (\begin{DoxyParamCaption}\item[{\hyperlink{Enums_8h_ab87bacfdad76e61b9412d7124be44c1c}{Color}}]{color }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructor using \hyperlink{classChessPiece}{Chess\+Piece} constructor and \textquotesingle{}P\textquotesingle{} as an icon. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em color} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPawn_a3e1ac517cf828f52957f54179a455922_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classPawn_a30abb1fc67dffcd5f9ae104baf3e27ac}\label{classPawn_a30abb1fc67dffcd5f9ae104baf3e27ac}} 
+\index{Pawn@{Pawn}!check\+If\+Can\+Go\+To\+Position@{check\+If\+Can\+Go\+To\+Position}}
+\index{check\+If\+Can\+Go\+To\+Position@{check\+If\+Can\+Go\+To\+Position}!Pawn@{Pawn}}
+\subsubsection{\texorpdfstring{check\+If\+Can\+Go\+To\+Position()}{checkIfCanGoToPosition()}}
+{\footnotesize\ttfamily bool Pawn\+::check\+If\+Can\+Go\+To\+Position (\begin{DoxyParamCaption}\item[{\hyperlink{classPosition}{Position}}]{from\+Position,  }\item[{\hyperlink{classPosition}{Position}}]{to\+Position,  }\item[{\hyperlink{classBoard}{Board} $\ast$}]{board }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Checks if pawn form from\+Position can go to to\+Position. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em from\+Position} & \\
+\hline
+{\em to\+Position} & \\
+\hline
+{\em board} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classChessPiece_a90119a7c3c74ed9f967c398b8a7d7a98}{Chess\+Piece}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPawn_a30abb1fc67dffcd5f9ae104baf3e27ac_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{Pawn_8h}{Pawn.\+h}\item 
+src/\hyperlink{Pawn_8cpp}{Pawn.\+cpp}\end{DoxyCompactItemize}

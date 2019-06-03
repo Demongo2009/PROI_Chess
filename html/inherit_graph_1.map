@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classChessPiece.html" title="Class responsible for basic chess piece actions. " alt="" coords="5,132,99,159"/>
+<area shape="rect" id="node2" href="$classBishop.html" title="Class responsible for handling bishop chess piece actions. " alt="" coords="147,5,209,32"/>
+<area shape="rect" id="node3" href="$classKing.html" title="Class responsible for king chess piece actions. " alt="" coords="154,56,202,83"/>
+<area shape="rect" id="node4" href="$classKnight.html" title="Class responsible for knight chess piece actions. " alt="" coords="149,107,207,133"/>
+<area shape="rect" id="node5" href="$classPawn.html" title="Class responsible for pawn chess piece actions. " alt="" coords="151,157,205,184"/>
+<area shape="rect" id="node6" href="$classQueen.html" title="Class responsible for queen chess piece actions. " alt="" coords="148,208,208,235"/>
+<area shape="rect" id="node7" href="$classRook.html" title="Class responsible for rook chess piece actions. " alt="" coords="151,259,205,285"/>
+</map>

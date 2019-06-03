@@ -108,3 +108,14 @@ CMakeFiles/Projekt3.dir/src/Rook.cpp.o: ../include/Rook.h
 CMakeFiles/Projekt3.dir/src/Rook.cpp.o: ../include/UtilityFunctions.h
 CMakeFiles/Projekt3.dir/src/Rook.cpp.o: ../src/Rook.cpp
 
+CMakeFiles/Projekt3.dir/test/Tests.cpp.o: ../include/Board.h
+CMakeFiles/Projekt3.dir/test/Tests.cpp.o: ../include/ChessPiece.h
+CMakeFiles/Projekt3.dir/test/Tests.cpp.o: ../include/Enums.h
+CMakeFiles/Projekt3.dir/test/Tests.cpp.o: ../include/GameInterface.h
+CMakeFiles/Projekt3.dir/test/Tests.cpp.o: ../include/GameManager.h
+CMakeFiles/Projekt3.dir/test/Tests.cpp.o: ../include/PathPattern.h
+CMakeFiles/Projekt3.dir/test/Tests.cpp.o: ../include/Player.h
+CMakeFiles/Projekt3.dir/test/Tests.cpp.o: ../include/Position.h
+CMakeFiles/Projekt3.dir/test/Tests.cpp.o: ../test/Tests.cpp
+CMakeFiles/Projekt3.dir/test/Tests.cpp.o: ../test/catch.hpp
+

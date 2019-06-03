@@ -1,0 +1,109 @@
+\hypertarget{classKing}{}\section{King Class Reference}
+\label{classKing}\index{King@{King}}
+
+
+Class responsible for king chess piece actions.  
+
+
+
+
+{\ttfamily \#include $<$King.\+h$>$}
+
+
+
+Inheritance diagram for King\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=150pt]{classKing__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for King\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=150pt]{classKing__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classKing_a39c7835e28a746800a290c3fb6501c92}{King} (\hyperlink{Enums_8h_ab87bacfdad76e61b9412d7124be44c1c}{Color} \hyperlink{classChessPiece_a8c8fc170e7c719ac2b71a93a56a38f01}{color})
+\begin{DoxyCompactList}\small\item\em Constructor using \hyperlink{classChessPiece}{Chess\+Piece} constructor and \textquotesingle{}K" as icon. \end{DoxyCompactList}\item 
+bool \hyperlink{classKing_ab9e40ed32cfc93fec76a831d2087fa78}{check\+If\+Can\+Go\+To\+Position} (\hyperlink{classPosition}{Position} from\+Position, \hyperlink{classPosition}{Position} to\+Position, \hyperlink{classBoard}{Board} $\ast$board)
+\begin{DoxyCompactList}\small\item\em Checks if king form from\+Position can go to to\+Position. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Class responsible for king chess piece actions. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classKing_a39c7835e28a746800a290c3fb6501c92}\label{classKing_a39c7835e28a746800a290c3fb6501c92}} 
+\index{King@{King}!King@{King}}
+\index{King@{King}!King@{King}}
+\subsubsection{\texorpdfstring{King()}{King()}}
+{\footnotesize\ttfamily King\+::\+King (\begin{DoxyParamCaption}\item[{\hyperlink{Enums_8h_ab87bacfdad76e61b9412d7124be44c1c}{Color}}]{color }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructor using \hyperlink{classChessPiece}{Chess\+Piece} constructor and \textquotesingle{}K" as icon. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em color} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classKing_a39c7835e28a746800a290c3fb6501c92_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classKing_ab9e40ed32cfc93fec76a831d2087fa78}\label{classKing_ab9e40ed32cfc93fec76a831d2087fa78}} 
+\index{King@{King}!check\+If\+Can\+Go\+To\+Position@{check\+If\+Can\+Go\+To\+Position}}
+\index{check\+If\+Can\+Go\+To\+Position@{check\+If\+Can\+Go\+To\+Position}!King@{King}}
+\subsubsection{\texorpdfstring{check\+If\+Can\+Go\+To\+Position()}{checkIfCanGoToPosition()}}
+{\footnotesize\ttfamily bool King\+::check\+If\+Can\+Go\+To\+Position (\begin{DoxyParamCaption}\item[{\hyperlink{classPosition}{Position}}]{from\+Position,  }\item[{\hyperlink{classPosition}{Position}}]{to\+Position,  }\item[{\hyperlink{classBoard}{Board} $\ast$}]{board }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Checks if king form from\+Position can go to to\+Position. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em from\+Position} & \\
+\hline
+{\em to\+Position} & \\
+\hline
+{\em board} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+can\+Move 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classChessPiece_a90119a7c3c74ed9f967c398b8a7d7a98}{Chess\+Piece}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classKing_ab9e40ed32cfc93fec76a831d2087fa78_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{King_8h}{King.\+h}\item 
+src/\hyperlink{King_8cpp}{King.\+cpp}\end{DoxyCompactItemize}

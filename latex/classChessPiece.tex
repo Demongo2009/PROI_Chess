@@ -1,0 +1,124 @@
+\hypertarget{classChessPiece}{}\section{Chess\+Piece Class Reference}
+\label{classChessPiece}\index{Chess\+Piece@{Chess\+Piece}}
+
+
+Class responsible for basic chess piece actions.  
+
+
+
+
+{\ttfamily \#include $<$Chess\+Piece.\+h$>$}
+
+
+
+Inheritance diagram for Chess\+Piece\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classChessPiece__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classChessPiece_a38c44e06d7bf1b0f96d27886ca5d389f}{Chess\+Piece} (\hyperlink{Enums_8h_ab87bacfdad76e61b9412d7124be44c1c}{Color} \hyperlink{classChessPiece_a8c8fc170e7c719ac2b71a93a56a38f01}{color}, char \hyperlink{classChessPiece_ad32540487648131ed69e63f46f787d08}{icon})
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{classChessPiece_a90119a7c3c74ed9f967c398b8a7d7a98}{check\+If\+Can\+Go\+To\+Position} (\hyperlink{classPosition}{Position} form\+Position, \hyperlink{classPosition}{Position} to\+Position, \hyperlink{classBoard}{Board} $\ast$board)=0
+\begin{DoxyCompactList}\small\item\em Checks if chess piece form from\+Position can go to to\+Position. \end{DoxyCompactList}\item 
+\hyperlink{Enums_8h_ab87bacfdad76e61b9412d7124be44c1c}{Color} \hyperlink{classChessPiece_a99f599eac60792290e3bcb3bea1e0970}{get\+Color} ()
+\begin{DoxyCompactList}\small\item\em Reurns color of the chess piece. \end{DoxyCompactList}\item 
+char \hyperlink{classChessPiece_aee72609f866105f5676e007887877b7c}{get\+Icon} ()
+\begin{DoxyCompactList}\small\item\em Returns icon of the chess piece. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classChessPiece_a8c8fc170e7c719ac2b71a93a56a38f01}\label{classChessPiece_a8c8fc170e7c719ac2b71a93a56a38f01}} 
+\hyperlink{Enums_8h_ab87bacfdad76e61b9412d7124be44c1c}{Color} \hyperlink{classChessPiece_a8c8fc170e7c719ac2b71a93a56a38f01}{color}
+\begin{DoxyCompactList}\small\item\em Color of the chess piece. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classChessPiece_ad32540487648131ed69e63f46f787d08}\label{classChessPiece_ad32540487648131ed69e63f46f787d08}} 
+char \hyperlink{classChessPiece_ad32540487648131ed69e63f46f787d08}{icon}
+\begin{DoxyCompactList}\small\item\em Char which will be show when displaying chess piece. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class responsible for basic chess piece actions. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classChessPiece_a38c44e06d7bf1b0f96d27886ca5d389f}\label{classChessPiece_a38c44e06d7bf1b0f96d27886ca5d389f}} 
+\index{Chess\+Piece@{Chess\+Piece}!Chess\+Piece@{Chess\+Piece}}
+\index{Chess\+Piece@{Chess\+Piece}!Chess\+Piece@{Chess\+Piece}}
+\subsubsection{\texorpdfstring{Chess\+Piece()}{ChessPiece()}}
+{\footnotesize\ttfamily Chess\+Piece\+::\+Chess\+Piece (\begin{DoxyParamCaption}\item[{\hyperlink{Enums_8h_ab87bacfdad76e61b9412d7124be44c1c}{Color}}]{color,  }\item[{char}]{icon }\end{DoxyParamCaption})}
+
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em color} & \\
+\hline
+{\em icon} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classChessPiece_a90119a7c3c74ed9f967c398b8a7d7a98}\label{classChessPiece_a90119a7c3c74ed9f967c398b8a7d7a98}} 
+\index{Chess\+Piece@{Chess\+Piece}!check\+If\+Can\+Go\+To\+Position@{check\+If\+Can\+Go\+To\+Position}}
+\index{check\+If\+Can\+Go\+To\+Position@{check\+If\+Can\+Go\+To\+Position}!Chess\+Piece@{Chess\+Piece}}
+\subsubsection{\texorpdfstring{check\+If\+Can\+Go\+To\+Position()}{checkIfCanGoToPosition()}}
+{\footnotesize\ttfamily virtual bool Chess\+Piece\+::check\+If\+Can\+Go\+To\+Position (\begin{DoxyParamCaption}\item[{\hyperlink{classPosition}{Position}}]{form\+Position,  }\item[{\hyperlink{classPosition}{Position}}]{to\+Position,  }\item[{\hyperlink{classBoard}{Board} $\ast$}]{board }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Checks if chess piece form from\+Position can go to to\+Position. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em form\+Position} & \\
+\hline
+{\em to\+Position} & \\
+\hline
+{\em board} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classQueen_a504eb0f657c4ae6acbf54ef8ab4c5cf9}{Queen}, \hyperlink{classPawn_a30abb1fc67dffcd5f9ae104baf3e27ac}{Pawn}, \hyperlink{classBishop_aa9bdacc00fdb3a19035494e67240c55b}{Bishop}, \hyperlink{classKing_ab9e40ed32cfc93fec76a831d2087fa78}{King}, \hyperlink{classRook_aad67c9012197bf285cf6a27861fbcb06}{Rook}, and \hyperlink{classKnight_a8aaec0101a97586e884332bf15787319}{Knight}.
+
+\mbox{\Hypertarget{classChessPiece_a99f599eac60792290e3bcb3bea1e0970}\label{classChessPiece_a99f599eac60792290e3bcb3bea1e0970}} 
+\index{Chess\+Piece@{Chess\+Piece}!get\+Color@{get\+Color}}
+\index{get\+Color@{get\+Color}!Chess\+Piece@{Chess\+Piece}}
+\subsubsection{\texorpdfstring{get\+Color()}{getColor()}}
+{\footnotesize\ttfamily \hyperlink{Enums_8h_ab87bacfdad76e61b9412d7124be44c1c}{Color} Chess\+Piece\+::get\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Reurns color of the chess piece. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classChessPiece_aee72609f866105f5676e007887877b7c}\label{classChessPiece_aee72609f866105f5676e007887877b7c}} 
+\index{Chess\+Piece@{Chess\+Piece}!get\+Icon@{get\+Icon}}
+\index{get\+Icon@{get\+Icon}!Chess\+Piece@{Chess\+Piece}}
+\subsubsection{\texorpdfstring{get\+Icon()}{getIcon()}}
+{\footnotesize\ttfamily char Chess\+Piece\+::get\+Icon (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns icon of the chess piece. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{ChessPiece_8h}{Chess\+Piece.\+h}\item 
+src/\hyperlink{ChessPiece_8cpp}{Chess\+Piece.\+cpp}\end{DoxyCompactItemize}

@@ -1,0 +1,6 @@
+<map id="King::checkIfCanGoToPosition" name="King::checkIfCanGoToPosition">
+<area shape="rect" id="node2" href="$classPosition.html#a4e65d4b865c08791302956e2912a2300" title="Returns x of position. " alt="" coords="457,5,561,32"/>
+<area shape="rect" id="node3" href="$classPosition.html#ab386f9a955ea2e291774f8d403614260" title="Returns y of position. " alt="" coords="457,56,561,83"/>
+<area shape="rect" id="node4" href="$classBoard.html#aa9344089fc229e9dcc23e58405af14d9" title="Returns chess piece form position. " alt="" coords="256,31,409,57"/>
+<area shape="rect" id="node5" href="$classChessPiece.html#a99f599eac60792290e3bcb3bea1e0970" title="Reurns color of the chess piece. " alt="" coords="257,132,408,159"/>
+</map>

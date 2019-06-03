@@ -1,0 +1,8 @@
+<map id="ChessPiece" name="ChessPiece">
+<area shape="rect" id="node2" href="$classBishop.html" title="Class responsible for handling bishop chess piece actions. " alt="" coords="5,80,68,107"/>
+<area shape="rect" id="node3" href="$classKing.html" title="Class responsible for king chess piece actions. " alt="" coords="93,80,141,107"/>
+<area shape="rect" id="node4" href="$classKnight.html" title="Class responsible for knight chess piece actions. " alt="" coords="165,80,223,107"/>
+<area shape="rect" id="node5" href="$classPawn.html" title="Class responsible for pawn chess piece actions. " alt="" coords="248,80,303,107"/>
+<area shape="rect" id="node6" href="$classQueen.html" title="Class responsible for queen chess piece actions. " alt="" coords="327,80,387,107"/>
+<area shape="rect" id="node7" href="$classRook.html" title="Class responsible for rook chess piece actions. " alt="" coords="411,80,465,107"/>
+</map>

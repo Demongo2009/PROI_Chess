@@ -1,0 +1,121 @@
+\hypertarget{classBoard}{}\section{Board Class Reference}
+\label{classBoard}\index{Board@{Board}}
+
+
+Class responsible for handling board and board actions.  
+
+
+
+
+{\ttfamily \#include $<$Board.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classBoard_a10531cbaada84808632ae9933c9f1306}{remove\+Chess\+Piece} (\hyperlink{classPosition}{Position} position)
+\begin{DoxyCompactList}\small\item\em Removes chess piece from board. \end{DoxyCompactList}\item 
+void \hyperlink{classBoard_aafb3a9f7f623360f66532e2f5fea0c2f}{set\+Chess\+Piece} (\hyperlink{classChessPiece}{Chess\+Piece} $\ast$chess\+Piece, \hyperlink{classPosition}{Position} position)
+\begin{DoxyCompactList}\small\item\em Sets position on board to chess\+Piece. \end{DoxyCompactList}\item 
+\hyperlink{classChessPiece}{Chess\+Piece} $\ast$ \hyperlink{classBoard_aa9344089fc229e9dcc23e58405af14d9}{get\+Chess\+Piece} (\hyperlink{classPosition}{Position} position)
+\begin{DoxyCompactList}\small\item\em Returns chess piece form position. \end{DoxyCompactList}\item 
+std\+::string \hyperlink{classBoard_a2cf2b2f6adc453bc3b086c9f10c77e11}{to\+String} ()
+\begin{DoxyCompactList}\small\item\em Returns board converted to tidy string. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class responsible for handling board and board actions. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classBoard_aa9344089fc229e9dcc23e58405af14d9}\label{classBoard_aa9344089fc229e9dcc23e58405af14d9}} 
+\index{Board@{Board}!get\+Chess\+Piece@{get\+Chess\+Piece}}
+\index{get\+Chess\+Piece@{get\+Chess\+Piece}!Board@{Board}}
+\subsubsection{\texorpdfstring{get\+Chess\+Piece()}{getChessPiece()}}
+{\footnotesize\ttfamily \hyperlink{classChessPiece}{Chess\+Piece} $\ast$ Board\+::get\+Chess\+Piece (\begin{DoxyParamCaption}\item[{\hyperlink{classPosition}{Position}}]{position }\end{DoxyParamCaption})}
+
+
+
+Returns chess piece form position. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em position} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=309pt]{classBoard_aa9344089fc229e9dcc23e58405af14d9_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classBoard_a10531cbaada84808632ae9933c9f1306}\label{classBoard_a10531cbaada84808632ae9933c9f1306}} 
+\index{Board@{Board}!remove\+Chess\+Piece@{remove\+Chess\+Piece}}
+\index{remove\+Chess\+Piece@{remove\+Chess\+Piece}!Board@{Board}}
+\subsubsection{\texorpdfstring{remove\+Chess\+Piece()}{removeChessPiece()}}
+{\footnotesize\ttfamily void Board\+::remove\+Chess\+Piece (\begin{DoxyParamCaption}\item[{\hyperlink{classPosition}{Position}}]{position }\end{DoxyParamCaption})}
+
+
+
+Removes chess piece from board. 
+
+Changes to nullptr in array.
+
+
+\begin{DoxyParams}{Parameters}
+{\em position} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classBoard_a10531cbaada84808632ae9933c9f1306_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classBoard_aafb3a9f7f623360f66532e2f5fea0c2f}\label{classBoard_aafb3a9f7f623360f66532e2f5fea0c2f}} 
+\index{Board@{Board}!set\+Chess\+Piece@{set\+Chess\+Piece}}
+\index{set\+Chess\+Piece@{set\+Chess\+Piece}!Board@{Board}}
+\subsubsection{\texorpdfstring{set\+Chess\+Piece()}{setChessPiece()}}
+{\footnotesize\ttfamily void Board\+::set\+Chess\+Piece (\begin{DoxyParamCaption}\item[{\hyperlink{classChessPiece}{Chess\+Piece} $\ast$}]{chess\+Piece,  }\item[{\hyperlink{classPosition}{Position}}]{position }\end{DoxyParamCaption})}
+
+
+
+Sets position on board to chess\+Piece. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em chess\+Piece} & \\
+\hline
+{\em position} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=309pt]{classBoard_aafb3a9f7f623360f66532e2f5fea0c2f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classBoard_a2cf2b2f6adc453bc3b086c9f10c77e11}\label{classBoard_a2cf2b2f6adc453bc3b086c9f10c77e11}} 
+\index{Board@{Board}!to\+String@{to\+String}}
+\index{to\+String@{to\+String}!Board@{Board}}
+\subsubsection{\texorpdfstring{to\+String()}{toString()}}
+{\footnotesize\ttfamily std\+::string Board\+::to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns board converted to tidy string. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{Board_8h}{Board.\+h}\item 
+src/\hyperlink{Board_8cpp}{Board.\+cpp}\end{DoxyCompactItemize}

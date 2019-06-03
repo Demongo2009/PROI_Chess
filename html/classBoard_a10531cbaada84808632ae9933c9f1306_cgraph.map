@@ -1,0 +1,5 @@
+<map id="Board::removeChessPiece" name="Board::removeChessPiece">
+<area shape="rect" id="node2" href="$classBoard.html#aafb3a9f7f623360f66532e2f5fea0c2f" title="Sets position on board to chessPiece. " alt="" coords="232,31,385,57"/>
+<area shape="rect" id="node3" href="$classPosition.html#a4e65d4b865c08791302956e2912a2300" title="Returns x of position. " alt="" coords="433,5,537,32"/>
+<area shape="rect" id="node4" href="$classPosition.html#ab386f9a955ea2e291774f8d403614260" title="Returns y of position. " alt="" coords="433,56,537,83"/>
+</map>

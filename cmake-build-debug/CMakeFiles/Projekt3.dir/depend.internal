@@ -108,3 +108,14 @@ CMakeFiles/Projekt3.dir/src/Rook.cpp.o
  /home/demongo/Clion/projects/Projekt3/include/Rook.h
  /home/demongo/Clion/projects/Projekt3/include/UtilityFunctions.h
  /home/demongo/Clion/projects/Projekt3/src/Rook.cpp
+CMakeFiles/Projekt3.dir/test/Tests.cpp.o
+ /home/demongo/Clion/projects/Projekt3/include/Board.h
+ /home/demongo/Clion/projects/Projekt3/include/ChessPiece.h
+ /home/demongo/Clion/projects/Projekt3/include/Enums.h
+ /home/demongo/Clion/projects/Projekt3/include/GameInterface.h
+ /home/demongo/Clion/projects/Projekt3/include/GameManager.h
+ /home/demongo/Clion/projects/Projekt3/include/PathPattern.h
+ /home/demongo/Clion/projects/Projekt3/include/Player.h
+ /home/demongo/Clion/projects/Projekt3/include/Position.h
+ /home/demongo/Clion/projects/Projekt3/test/Tests.cpp
+ /home/demongo/Clion/projects/Projekt3/test/catch.hpp

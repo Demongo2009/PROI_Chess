@@ -1,0 +1,100 @@
+\hypertarget{classGameManager}{}\section{Game\+Manager Class Reference}
+\label{classGameManager}\index{Game\+Manager@{Game\+Manager}}
+
+
+Class responsible for managing game logic.  
+
+
+
+
+{\ttfamily \#include $<$Game\+Manager.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classGameManager_a79d810aa82d8987c1cdb0e67a7f361fb}{Game\+Manager} (\hyperlink{classBoard}{Board} $\ast$board)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+bool \hyperlink{classGameManager_a115bc92a76d5a500667601ede0becb07}{make\+Move} (\hyperlink{classPosition}{Position} chess\+Piece\+To\+Move\+Position, \hyperlink{classPosition}{Position} position\+To\+Move\+To, \hyperlink{Enums_8h_ab87bacfdad76e61b9412d7124be44c1c}{Color} player\+Moving\+Color)
+\begin{DoxyCompactList}\small\item\em Check and moves if chess piece from chess\+Piece\+To\+Move\+Position can go to position\+To\+Move\+To, if current player is player\+Moving\+Color. \end{DoxyCompactList}\item 
+std\+::string \hyperlink{classGameManager_a882cb4b776ef8d0e6912c175d746fcdd}{board\+To\+String} ()
+\begin{DoxyCompactList}\small\item\em Returns board in tidy string. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class responsible for managing game logic. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classGameManager_a79d810aa82d8987c1cdb0e67a7f361fb}\label{classGameManager_a79d810aa82d8987c1cdb0e67a7f361fb}} 
+\index{Game\+Manager@{Game\+Manager}!Game\+Manager@{Game\+Manager}}
+\index{Game\+Manager@{Game\+Manager}!Game\+Manager@{Game\+Manager}}
+\subsubsection{\texorpdfstring{Game\+Manager()}{GameManager()}}
+{\footnotesize\ttfamily Game\+Manager\+::\+Game\+Manager (\begin{DoxyParamCaption}\item[{\hyperlink{classBoard}{Board} $\ast$}]{board }\end{DoxyParamCaption})}
+
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em board} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classGameManager_a882cb4b776ef8d0e6912c175d746fcdd}\label{classGameManager_a882cb4b776ef8d0e6912c175d746fcdd}} 
+\index{Game\+Manager@{Game\+Manager}!board\+To\+String@{board\+To\+String}}
+\index{board\+To\+String@{board\+To\+String}!Game\+Manager@{Game\+Manager}}
+\subsubsection{\texorpdfstring{board\+To\+String()}{boardToString()}}
+{\footnotesize\ttfamily std\+::string Game\+Manager\+::board\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns board in tidy string. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGameManager_a882cb4b776ef8d0e6912c175d746fcdd_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGameManager_a115bc92a76d5a500667601ede0becb07}\label{classGameManager_a115bc92a76d5a500667601ede0becb07}} 
+\index{Game\+Manager@{Game\+Manager}!make\+Move@{make\+Move}}
+\index{make\+Move@{make\+Move}!Game\+Manager@{Game\+Manager}}
+\subsubsection{\texorpdfstring{make\+Move()}{makeMove()}}
+{\footnotesize\ttfamily bool Game\+Manager\+::make\+Move (\begin{DoxyParamCaption}\item[{\hyperlink{classPosition}{Position}}]{chess\+Piece\+To\+Move\+Position,  }\item[{\hyperlink{classPosition}{Position}}]{position\+To\+Move\+To,  }\item[{\hyperlink{Enums_8h_ab87bacfdad76e61b9412d7124be44c1c}{Color}}]{player\+Moving\+Color }\end{DoxyParamCaption})}
+
+
+
+Check and moves if chess piece from chess\+Piece\+To\+Move\+Position can go to position\+To\+Move\+To, if current player is player\+Moving\+Color. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em chess\+Piece\+To\+Move\+Position} & \\
+\hline
+{\em position\+To\+Move\+To} & \\
+\hline
+{\em player\+Moving\+Color} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+move\+Made 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=328pt]{classGameManager_a115bc92a76d5a500667601ede0becb07_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{GameManager_8h}{Game\+Manager.\+h}\item 
+src/\hyperlink{GameManager_8cpp}{Game\+Manager.\+cpp}\end{DoxyCompactItemize}

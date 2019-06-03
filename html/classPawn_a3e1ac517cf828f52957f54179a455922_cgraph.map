@@ -1,0 +1,5 @@
+<map id="Pawn::Pawn" name="Pawn::Pawn">
+<area shape="rect" id="node2" href="$classPawn.html#a30abb1fc67dffcd5f9ae104baf3e27ac" title="Checks if pawn form fromPosition can go to toPosition. " alt="" coords="149,31,359,57"/>
+<area shape="rect" id="node3" href="$classPosition.html#a4e65d4b865c08791302956e2912a2300" title="Returns x of position. " alt="" coords="407,5,511,32"/>
+<area shape="rect" id="node4" href="$classPosition.html#ab386f9a955ea2e291774f8d403614260" title="Returns y of position. " alt="" coords="407,56,511,83"/>
+</map>

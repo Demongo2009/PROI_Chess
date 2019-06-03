@@ -1,0 +1,22 @@
+<map id="include/Board.h" name="include/Board.h">
+<area shape="rect" id="node2" href="$ChessPiece_8h.html" title="include/ChessPiece.h" alt="" coords="543,80,693,107"/>
+<area shape="rect" id="node5" href="$GameManager_8cpp.html" title="src/GameManager.cpp" alt="" coords="570,229,725,256"/>
+<area shape="rect" id="node7" href="$Pawn_8h.html" title="include/Pawn.h" alt="" coords="5,155,116,181"/>
+<area shape="rect" id="node17" href="$Board_8cpp.html" title="src/Board.cpp" alt="" coords="1159,80,1261,107"/>
+<area shape="rect" id="node18" href="$GameManager_8h.html" title="include/GameManager.h" alt="" coords="971,80,1134,107"/>
+<area shape="rect" id="node3" href="$Bishop_8h.html" title="include/Bishop.h" alt="" coords="269,155,388,181"/>
+<area shape="rect" id="node6" href="$ChessPiece_8cpp.html" title="src/ChessPiece.cpp" alt="" coords="552,155,692,181"/>
+<area shape="rect" id="node9" href="$Rook_8h.html" title="include/Rook.h" alt="" coords="767,155,877,181"/>
+<area shape="rect" id="node11" href="$King_8h.html" title="include/King.h" alt="" coords="141,155,245,181"/>
+<area shape="rect" id="node13" href="$Knight_8h.html" title="include/Knight.h" alt="" coords="901,155,1015,181"/>
+<area shape="rect" id="node15" href="$Queen_8h.html" title="include/Queen.h" alt="" coords="412,155,528,181"/>
+<area shape="rect" id="node4" href="$Bishop_8cpp.html" title="src/Bishop.cpp" alt="" coords="274,229,383,256"/>
+<area shape="rect" id="node8" href="$Pawn_8cpp.html" title="src/Pawn.cpp" alt="" coords="9,229,112,256"/>
+<area shape="rect" id="node10" href="$Rook_8cpp.html" title="src/Rook.cpp" alt="" coords="772,229,872,256"/>
+<area shape="rect" id="node12" href="$King_8cpp.html" title="src/King.cpp" alt="" coords="145,229,240,256"/>
+<area shape="rect" id="node14" href="$Knight_8cpp.html" title="src/Knight.cpp" alt="" coords="905,229,1011,256"/>
+<area shape="rect" id="node16" href="$Queen_8cpp.html" title="src/Queen.cpp" alt="" coords="417,229,523,256"/>
+<area shape="rect" id="node19" href="$GameInterface_8h.html" title="include/GameInterface.h" alt="" coords="1141,155,1305,181"/>
+<area shape="rect" id="node21" href="$Main_8cpp.html" title="src/Main.cpp" alt="" coords="1055,229,1152,256"/>
+<area shape="rect" id="node20" href="$GameInterface_8cpp.html" title="src/GameInterface.cpp" alt="" coords="1177,229,1331,256"/>
+</map>

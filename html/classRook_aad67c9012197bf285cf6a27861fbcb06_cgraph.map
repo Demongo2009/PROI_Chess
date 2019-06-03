@@ -1,0 +1,5 @@
+<map id="Rook::checkIfCanGoToPosition" name="Rook::checkIfCanGoToPosition">
+<area shape="rect" id="node2" href="$classPosition.html#a4e65d4b865c08791302956e2912a2300" title="Returns x of position. " alt="" coords="461,5,565,32"/>
+<area shape="rect" id="node3" href="$classPosition.html#ab386f9a955ea2e291774f8d403614260" title="Returns y of position. " alt="" coords="461,68,565,95"/>
+<area shape="rect" id="node4" href="$classBoard.html#aa9344089fc229e9dcc23e58405af14d9" title="Returns chess piece form position. " alt="" coords="260,31,413,57"/>
+</map>

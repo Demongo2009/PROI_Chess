@@ -1,0 +1,8 @@
+<map id="include/Player.h" name="include/Player.h">
+<area shape="rect" id="node2" href="$GameManager_8h.html" title="include/GameManager.h" alt="" coords="151,80,313,107"/>
+<area shape="rect" id="node6" href="$GameManager_8cpp.html" title="src/GameManager.cpp" alt="" coords="272,155,427,181"/>
+<area shape="rect" id="node7" href="$Player_8cpp.html" title="src/Player.cpp" alt="" coords="388,80,495,107"/>
+<area shape="rect" id="node3" href="$GameInterface_8h.html" title="include/GameInterface.h" alt="" coords="31,155,195,181"/>
+<area shape="rect" id="node5" href="$Main_8cpp.html" title="src/Main.cpp" alt="" coords="185,229,282,256"/>
+<area shape="rect" id="node4" href="$GameInterface_8cpp.html" title="src/GameInterface.cpp" alt="" coords="5,229,160,256"/>
+</map>

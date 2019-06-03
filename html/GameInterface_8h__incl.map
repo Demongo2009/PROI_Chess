@@ -1,0 +1,9 @@
+<map id="include/GameInterface.h" name="include/GameInterface.h">
+<area shape="rect" id="node2" href="$GameManager_8h.html" title="GameManager.h" alt="" coords="50,80,169,107"/>
+<area shape="rect" id="node3" href="$Board_8h.html" title="Board.h" alt="" coords="29,155,96,181"/>
+<area shape="rect" id="node9" href="$Player_8h.html" title="Player.h" alt="" coords="126,155,197,181"/>
+<area shape="rect" id="node5" href="$ChessPiece_8h.html" title="ChessPiece.h" alt="" coords="5,229,109,256"/>
+<area shape="rect" id="node6" href="$Position_8h.html" title="Position.h" alt="" coords="47,379,127,405"/>
+<area shape="rect" id="node7" href="$PathPattern_8h_source.html" title="PathPattern.h" alt="" coords="86,304,189,331"/>
+<area shape="rect" id="node8" href="$Enums_8h.html" title="Handling enums of the project. " alt="" coords="169,379,244,405"/>
+</map>

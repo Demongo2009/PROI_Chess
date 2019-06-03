@@ -1,0 +1,8 @@
+<map id="GameManager::boardToString" name="GameManager::boardToString">
+<area shape="rect" id="node2" href="$classBoard.html#a2cf2b2f6adc453bc3b086c9f10c77e11" title="Returns board converted to tidy string. " alt="" coords="287,5,397,32"/>
+<area shape="rect" id="node3" href="$classBoard.html#aa9344089fc229e9dcc23e58405af14d9" title="Returns chess piece form position. " alt="" coords="265,56,419,83"/>
+<area shape="rect" id="node6" href="$classChessPiece.html#a90119a7c3c74ed9f967c398b8a7d7a98" title="Checks if chess piece form fromPosition can go to toPosition. " alt="" coords="249,107,435,149"/>
+<area shape="rect" id="node7" href="$classChessPiece.html#a99f599eac60792290e3bcb3bea1e0970" title="Reurns color of the chess piece. " alt="" coords="267,173,417,200"/>
+<area shape="rect" id="node4" href="$classPosition.html#a4e65d4b865c08791302956e2912a2300" title="Returns x of position. " alt="" coords="483,31,587,57"/>
+<area shape="rect" id="node5" href="$classPosition.html#ab386f9a955ea2e291774f8d403614260" title="Returns y of position. " alt="" coords="483,81,587,108"/>
+</map>

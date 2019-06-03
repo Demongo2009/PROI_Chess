@@ -1,0 +1,5 @@
+<map id="Knight::Knight" name="Knight::Knight">
+<area shape="rect" id="node2" href="$classKnight.html#a8aaec0101a97586e884332bf15787319" title="Checks if chess piece form fromPosition can go to toPosition . " alt="" coords="157,31,371,57"/>
+<area shape="rect" id="node3" href="$classPosition.html#a4e65d4b865c08791302956e2912a2300" title="Returns x of position. " alt="" coords="419,5,523,32"/>
+<area shape="rect" id="node4" href="$classPosition.html#ab386f9a955ea2e291774f8d403614260" title="Returns y of position. " alt="" coords="419,56,523,83"/>
+</map>
