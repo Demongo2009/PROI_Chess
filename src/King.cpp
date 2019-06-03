@@ -1,6 +1,9 @@
 //
 // Created by demongo on 23.05.19.
 //
+/** \file
+ *
+ */
 
 #include "../include/King.h"
 
@@ -34,4 +37,16 @@ bool King::checkIfColliding(Position fromPosition, Position toPosition, Board *b
 		return true;
 	}
 	return false;
+}
+
+bool tryCheck(Position,Board*){
+	return false;
+}
+
+bool King::setCheck(bool val) {
+	isInCheck =val;
+}
+
+bool King::getCheck() {
+	return isInCheck;
 }

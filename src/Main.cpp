@@ -1,4 +1,7 @@
 
+/** \file
+ *
+ */
 #include <stdint.h>
 #include <iostream>
 #include "../include/GameManager.h"

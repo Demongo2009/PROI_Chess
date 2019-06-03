@@ -1,11 +1,46 @@
 //
 // Created by demongo on 19.05.19.
 //
+/** \file
+ *
+ */
 
 #include <cstdlib>
 #include "../include/Position.h"
 #include "../include/Pawn.h"
 
+bool Pawn::getCheck() {
+	return false;
+}
+
+bool Pawn::setCheck(bool val) {
+	return false;
+}
+
+bool Pawn::tryCheck(Position fromPosition, Board *board) {
+	int fromPositionX = fromPosition.getX();
+	int fromPositionY = fromPosition.getY();
+
+	Direction direction;
+	if(color == WHITE){
+		direction = UP;
+	}else{
+		direction = DOWN;
+	}
+	if(fromPositionX-1>=0){
+		ChessPiece* suspect = board->getChessPiece(Position(fromPositionX-1,fromPositionY+direction));
+		if(suspect){
+			suspect->setCheck(true);
+		}
+	}
+	if(fromPositionX+1<BOARD_SIZE){
+		ChessPiece* suspect = board->getChessPiece(Position(fromPositionX+1,fromPositionY+direction));
+		if(suspect){
+			suspect->setCheck(true);
+		}
+	}
+
+}
 
 bool Pawn::checkIfCanGoToPosition(Position fromPosition, Position toPosition, Board* board) {
 	int fromPositionX = fromPosition.getX();
@@ -56,7 +91,7 @@ bool Pawn::checkIfColliding(Position fromPosition, Position toPosition, Directio
 
 	int y=fromPositionY+direction;
 	ChessPiece* suspect = board->getChessPiece(Position(fromPositionX,y));
-	if( suspect && suspect->getColor()==color ){
+	if( suspect  ){
 		return true;
 	}
 	if(y == toPositionY){
@@ -64,7 +99,7 @@ bool Pawn::checkIfColliding(Position fromPosition, Position toPosition, Directio
 	}
 	y+=direction;
 	suspect = board->getChessPiece( Position(fromPositionX,y));
-	if( suspect && suspect->getColor()==color ){
+	if( suspect ){
 		return true;
 	}else{
 		return false;

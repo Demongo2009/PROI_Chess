@@ -7,6 +7,9 @@
 
 #include "Position.h"
 #include "Enums.h"
+/** \class PathPattern
+ *  Relict class.
+ */
 
 class PathPattern{
 	bool isRepetetive; //can you go to the end of board

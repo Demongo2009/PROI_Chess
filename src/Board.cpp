@@ -1,6 +1,9 @@
 //
 // Created by demongo on 23.05.19.
 //
+/** \file
+ *
+ */
 
 #include <sstream>
 #include "../include/Board.h"

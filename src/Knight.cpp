@@ -1,8 +1,57 @@
 //
 // Created by demongo on 22.05.19.
 //
+/** \file
+ *
+ */
 
 #include "../include/Knight.h"
+
+bool Knight::getCheck() {
+	return false;
+}
+
+bool Knight::setCheck(bool) {
+	return false;
+}
+
+bool Knight::tryCheck(Position fromPosition, Board* board) {
+	int fromPositionX = fromPosition.getX();
+	int fromPositionY = fromPosition.getY();
+
+	ChessPiece* suspect = board->getChessPiece(Position(fromPositionX+1,fromPositionY+2));
+	if(suspect){
+		suspect->setCheck(true);
+	}
+	suspect = board->getChessPiece(Position(fromPositionX+2,fromPositionY+1));
+	if(suspect){
+		suspect->setCheck(true);
+	}
+	suspect = board->getChessPiece(Position(fromPositionX+2,fromPositionY-1));
+	if(suspect){
+		suspect->setCheck(true);
+	}
+	suspect = board->getChessPiece(Position(fromPositionX+1,fromPositionY-2));
+	if(suspect){
+		suspect->setCheck(true);
+	}
+	suspect = board->getChessPiece(Position(fromPositionX-1,fromPositionY-2));
+	if(suspect){
+		suspect->setCheck(true);
+	}
+	suspect = board->getChessPiece(Position(fromPositionX-2,fromPositionY-1));
+	if(suspect){
+		suspect->setCheck(true);
+	}
+	suspect = board->getChessPiece(Position(fromPositionX-2,fromPositionY+1));
+	if(suspect){
+		suspect->setCheck(true);
+	}
+	suspect = board->getChessPiece(Position(fromPositionX-1,fromPositionY+2));
+	if(suspect){
+		suspect->setCheck(true);
+	}
+}
 
 
 bool Knight::checkIfCanGoToPosition(Position fromPosition, Position toPosition, Board* board) {

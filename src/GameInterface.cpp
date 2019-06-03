@@ -2,6 +2,9 @@
 // Created by demongo on 27.05.19.
 //
 
+/** \file
+ *
+ */
 
 #include <iostream>
 #include <string>

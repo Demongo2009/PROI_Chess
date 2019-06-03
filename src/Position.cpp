@@ -1,6 +1,9 @@
 //
 // Created by demongo on 23.05.19.
 //
+/** \file
+ *
+ */
 
 #include "../include/Position.h"
 

@@ -1,6 +1,9 @@
 //
 // Created by demongo on 19.05.19.
 //
+/** \file
+ *
+ */
 
 #include "../include/ChessPiece.h"
 

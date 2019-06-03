@@ -1,6 +1,9 @@
 //
 // Created by demongo on 17.05.19.
 //
+/** \file
+ *
+ */
 
 #include "../include/Player.h"
 #include "../include/Board.h"
@@ -60,17 +63,46 @@ bool GameManager::makeMove(Position chessPieceToMovePositionOld, Position positi
 	}
 
 	Color opponent = getOpponent(playerMovingColor);
+	ChessPiece* removed;
 	if(checkIfChessPieceIsOnBoardInPosition(positionToMoveTo)){
 		if(!checkIfChessPieceBelongsToPlayer(positionToMoveTo,opponent)) {
 			return false;
 		}else{
+			removed = board->getChessPiece(positionToMoveTo);
 			removeChessPieceFromBoard(positionToMoveTo);
 		}
 	}
 
 	moveChessPiece(chessPieceToMovePosition,positionToMoveTo);
+	updateChecks();
+	if(checkIfPlayersKingChecked(playerMovingColor)){
+		moveChessPiece(positionToMoveTo,chessPieceToMovePosition);
+		board->setChessPiece(removed, Position(positionToMoveTo));
+		return false;
+	}
 	return true;
 
+}
+void GameManager::updateChecks() {
+	for(int x=0; x<BOARD_SIZE; x++){
+		for(int y=0; y<BOARD_SIZE; y++){
+			ChessPiece* chessPieceTryingToCheck = board->getChessPiece(Position(x,y));
+			if(chessPieceTryingToCheck){
+				chessPieceTryingToCheck->tryCheck(Position(x,y),board);
+			}
+		}
+	}
+}
+
+bool GameManager::checkIfPlayersKingChecked(Color player) {
+	for(int x=0; x<BOARD_SIZE; x++){
+		for(int y=0; y<BOARD_SIZE; y++){
+			ChessPiece* suspect = board->getChessPiece(Position(x,y));
+			if(suspect->getColor()==player && suspect->getCheck()){
+				return true;
+			}
+		}
+	}
 }
 
 std::string GameManager::boardToString() {
@@ -122,6 +154,4 @@ bool GameManager::checkIfOutOfBounds(Position position) {
 	return positionX<0 || positionX>BOARD_SIZE-1 || positionY<0 || positionY>BOARD_SIZE-1;
 }
 
-void GameManager::checkIfIsInCheck(Color playerLoosingColor) {
 
-}
